@@ -10,7 +10,7 @@ translations:
       CSS पहले से कहीं ज्यादा तेजी से विकसित हो रहा है।
 
 
-      Flexbox, Grid, Multi-Column… CSS-in-JS जैसे पूरे नए प्रतिमानों के बारे में कुछ नहीं कहना।
+      फ्लेक्सबॉक्स, ग्रिड, मल्टी-कॉलम… CSS-in-JS जैसे पूरे नए प्रतिमानों के बारे में कुछ नहीं कहना।
 
 
       इसलिए हमारे वार्षिक स्टेट ऑफ जावास्क्रिप्ट सर्वे की सफलता के बाद, 
@@ -62,7 +62,7 @@ translations:
     t: उपयोगिताएँ जो सीएसएस को बढ़ाती हैं।
 
   - key: sections.pre_post_processors_others.title # TODO
-    t: Other Pre-/Post-processors
+    t: अन्य प्री-/पोस्ट-प्रोसेसर
 
   - key: sections.css_frameworks.title
     t: CSS फ़्रेमवर्क
@@ -138,7 +138,7 @@ translations:
   - key: features.exclusions
     t: CSS बहिष्करण
   - key: features.position_sticky
-    t: "Position: sticky"
+    t: 'Position: sticky'
   - key: features.logical_properties
     t: तार्किक गुण
   - key: features.logical_properties.description
