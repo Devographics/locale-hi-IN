@@ -67,7 +67,7 @@ translations:
   - key: accounts.please_log_in
     t: शुरू करने के लिए कृप्या लॉग इन या साइन अप करें।
   - key: accounts.logged_in_as
-    t: {email} के रूप में लॉग इन किया
+    t: लॉग इन {email} के द्वारा किया
   - key: accounts.questions
     t: >
       यदि आपके कोई प्रश्न हैं कि हम आपके डेटा का उपयोग कैसे करते हैं, या चाहते हैं हमें अपने रिकॉर्ड से अपना डेटा हटाने के लिए, कृपया <a href="mailto:hello@stateofjs.com"> संपर्क करें|
