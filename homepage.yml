@@ -4,18 +4,16 @@ translations:
   # Homepage
   ###########################################################################
 
-  - key: homepage.hand_coded # TODO
+  - key: homepage.hand_coded
     t: जापान में हाथ से कोडित
-  - key: homepage.leave_issue # TODO
+  - key: homepage.leave_issue
     t: एक मुद्दा छोड़ दो
-  - key: homepage.get_in_touch # TODO
+  - key: homepage.get_in_touch
     t: संपर्क में रहो
-
-  - key: homepage.made_by # TODO
+  - key: homepage.made_by
     t: 'स्टेट ऑफ़ सीएसएस (CSS) द्वारा बनाई गई है:'
-  - key: homepage.leave_issue # TODO
+  - key: homepage.leave_issue
     t: एक मुद्दा छोड़ दो
-
   - key: homepage.previous_years
     t: 'पिछला साल:'
   - key: homepage.intro
@@ -27,13 +25,10 @@ translations:
       इसलिए हमारे वार्षिक [स्टेट ऑफ़ जावास्क्रिप्ट](https://stateofjs.com) सर्वेक्षण की सफलता के बाद, हमने आगे बढ़ने का फैसला किया है
       नवीनतम रुझानों की पहचान करने में मदद करने के लिए शैलियों और चयनकर्ताओं की दुनिया… और पाटने की कोशिश करें
       हमेशा बढ़ता हुआ "महान फ्रंट-एंड डिवाइड"!
-
   - key: homepage.take_survey
     t: सर्वेक्षण (सर्वे) करें
-
   - key: homepage.view_results
     t: 2019 के परिणाम देखें
-
   - key: share.help_spread
     t: शब्द फैलाने में मदद करें!
 
@@ -41,14 +36,13 @@ translations:
     t: बने रहें
   - key: newsletter.leave_your_email
     t: हमें अपना ईमेल दें और अगला सर्वेक्षण होने पर हम आपको बताएंगे।
-
   - key: author.sacha.bio
     t: >
       [Nivo](http://nivo.rocks/) जावास्क्रिप्ट डेटा विज़ुअलाइज़ेशन लाइब्रेरी के निर्माता भी
       [Mozaik](http://mozaik.rocks/) के रूप में, सुंदर डैशबोर्ड बनाने का एक उपकरण।
-  - key: author.raphael.bio # TODO
+  - key: author.raphael.bio
     t: >
       [साइडबार](http://sidebar.io) दैनिक समाचार पत्र के निर्माता और
       [VulcanJS](http://vulcanjs.org), एक रिएक्ट+ग्राफक्यूएल ओपन-सोर्स फ्रेमवर्क।
-      [Sidebar](http://sidebar.io) दैनिक न्यूजलेटर और 
+      [Sidebar](http://sidebar.io) दैनिक न्यूजलेटर और
       [VulcanJS](http://vulcanjs.org), एक रिएक्ट+ग्राफक्यूएल ओपन-सोर्स फ्रेमवर्क के निर्माता।

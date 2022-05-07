@@ -10,7 +10,7 @@ translations:
     t: गलत ईमेल
   - key: accounts.error_minchar
     t: आपका पासवर्ड बहुत छोटा है
-  - key: accounts.error_unknown
+  - key: accounts.error_unknown# TODO
     t: अज्ञात त्रुटि
   - key: accounts.error_user_not_found
     t: उपयोगकर्ता नहीं मिला
