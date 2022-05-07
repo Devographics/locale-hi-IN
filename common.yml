@@ -77,17 +77,17 @@ translations:
       इसके अलावा, आप इस सर्वेक्षण को शेयर करके इस शब्द को बाहर निकालने में हमारी मदद कर सकते हैं। हर चीज मायने रखती है, और यह हमारे डेटा को समान बनाने में मदद करेगा अधिक प्रतिनिधि:
   - key: thanks.learn_more_about
     t: 'कुछ फीचर्स के बारे में आप शायद अधिक जानना चाहें:'
-  - key: thanks.knowledge_score # TODO
+  - key: thanks.knowledge_score
     t: ज्ञान (नॉलेज) स्कोर
-  - key: thanks.score_explanation # TODO
+  - key: thanks.score_explanation
     t: >
       आपने इनमें से <span class="score-number Score-number-ज्ञात">{known}</span> सुना या इस्तेमाल किया है
       सर्वेक्षण में उल्लिखित <span class="score-number Score-number-total">{total}</span> विशेषताएं, जो
       आपको शीर्ष पर रखता है <span class="score-number Score-number-ranking">{knowledgeRankingFromTop}%</span>
       सभी उत्तरदाताओं का।
-  - key: thanks.share_on_twitter # TODO
+  - key: thanks.share_on_twitter
     t: ट्विटर पर शेयर करें
-  - key: thanks.share_score_message # TODO
+  - key: thanks.share_score_message
     t: >
       मुझे इस साल के #{hashtag} सर्वे में {score}% नॉलेज स्कोर मिला है! यहां सर्वे करें: {shareUrl}
   # share
@@ -99,7 +99,7 @@ translations:
       इस साल का {surveyName} सर्वे अब शुरू हो गया है! {link}
 
   # forms
-  - key: forms.select_option # TODO
+  - key: forms.select_option
     t: विकल्प चुनें
 
   ###########################################################################
