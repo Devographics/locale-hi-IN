@@ -1,52 +1,48 @@
 locale: hi-IN
 translations:
-    ###########################################################################
-    # Homepage
-    ###########################################################################
+  ###########################################################################
+  # Homepage
+  ###########################################################################
 
-    - key: homepage.hand_coded # TODO
-      t: Hand-coded in Japan.
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
-    - key: homepage.get_in_touch # TODO
-      t: Get in touch
+  - key: homepage.hand_coded
+    t: जापान में हाथ से कोडित
+  - key: homepage.leave_issue
+    t: एक मुद्दा छोड़ दो
+  - key: homepage.get_in_touch
+    t: संपर्क में रहो
+  - key: homepage.made_by
+    t: 'स्टेट ऑफ़ सीएसएस (CSS) द्वारा बनाई गई है:'
+  - key: homepage.leave_issue
+    t: एक मुद्दा छोड़ दो
+  - key: homepage.previous_years
+    t: 'पिछला साल:'
+  - key: homepage.intro
+    t: >
+      ## सीएसएस पहले से कहीं ज्यादा तेजी से विकसित हो रहा है।
 
-    - key: homepage.made_by # TODO
-      t: 'The State of CSS is Made by:'
-    - key: homepage.leave_issue # TODO
-      t: Leave an issue
+      फ्लेक्सबॉक्स, ग्रिड, मल्टी-कॉलम… सीएसएस-इन-जेएस (CSS-in-JS) जैसे नए प्रतिमानों के बारे में कुछ नहीं कहना।
 
-    - key: homepage.previous_years # TODO
-      t: 'Previous Years:'
-    - key: homepage.intro # TODO
-      t: >
-          ## CSS is evolving faster than ever.
+      इसलिए हमारे वार्षिक [स्टेट ऑफ़ जावास्क्रिप्ट](https://stateofjs.com) सर्वेक्षण की सफलता के बाद, हमने आगे बढ़ने का फैसला किया है
+      नवीनतम रुझानों की पहचान करने में मदद करने के लिए शैलियों और चयनकर्ताओं की दुनिया… और पाटने की कोशिश करें
+      हमेशा बढ़ता हुआ "महान फ्रंट-एंड डिवाइड"!
+  - key: homepage.take_survey
+    t: सर्वेक्षण (सर्वे) करें
+  - key: homepage.view_results
+    t: 2019 के परिणाम देखें
+  - key: share.help_spread
+    t: शब्द फैलाने में मदद करें!
 
-          Flexbox, Grid, Multi-Column… To say nothing of whole new paradigms like CSS-in-JS.
-
-          So after the success of our annual [State Of JavaScript](https://stateofjs.com) survey, we’ve decided to take on
-          the world of styles and selectors to help identify the latest trends… and try to bridge
-          the ever-growing “great front-end divide”!
-
-    - key: homepage.take_survey # TODO
-      t: Take Survey
-
-    - key: homepage.view_results # TODO
-      t: View 2019 Results
-
-    - key: share.help_spread # TODO
-      t: Help Spread the Word!
-
-    - key: newsletter.stay_tuned # TODO
-      t: Stay Tuned
-    - key: newsletter.leave_your_email # TODO
-      t: Leave us your email and we’ll let you know when the next survey takes place.
-
-    - key: author.sacha.bio # TODO
-      t: >
-          Creator of the [Nivo](http://nivo.rocks/) JavaScript data visualization library as well
-          as [Mozaik](http://mozaik.rocks/), a tool for building beautiful dashboards.
-    - key: author.raphael.bio # TODO
-      t: >
-          Creator of the [Sidebar](http://sidebar.io) daily newsletter and
-          [VulcanJS](http://vulcanjs.org), a React+GraphQL open-source framework.
+  - key: newsletter.stay_tuned
+    t: बने रहें
+  - key: newsletter.leave_your_email
+    t: हमें अपना ईमेल दें और अगला सर्वेक्षण होने पर हम आपको बताएंगे।
+  - key: author.sacha.bio
+    t: >
+      [Nivo](http://nivo.rocks/) जावास्क्रिप्ट डेटा विज़ुअलाइज़ेशन लाइब्रेरी के निर्माता भी
+      [Mozaik](http://mozaik.rocks/) के रूप में, सुंदर डैशबोर्ड बनाने का एक उपकरण।
+  - key: author.raphael.bio
+    t: >
+      [साइडबार](http://sidebar.io) दैनिक समाचार पत्र के निर्माता और
+      [VulcanJS](http://vulcanjs.org), एक रिएक्ट+ग्राफक्यूएल ओपन-सोर्स फ्रेमवर्क।
+      [Sidebar](http://sidebar.io) दैनिक न्यूजलेटर और
+      [VulcanJS](http://vulcanjs.org), एक रिएक्ट+ग्राफक्यूएल ओपन-सोर्स फ्रेमवर्क के निर्माता।

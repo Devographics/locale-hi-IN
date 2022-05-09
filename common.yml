@@ -6,135 +6,134 @@ translations:
 
   # homepage
   - key: general.why_create_account
-    t: Why do I need to create an account?
+    t: मुझे अकाउंट बनाने की आवश्यकता क्यों है?
   - key: general.create_account_reasons
     t: >
-      We ask you to create an account in order to:
+      हम आपको एक अकाउंट बनाने के लिए कहते हैं:
 
-      - Avoid duplicate responses
+      - डुप्लिकेट रेस्पॉन्सेस से बचें
 
-      - Give you access to your data
+      - आपको अपने डेटा तक पहुंच प्रदान करें
 
-      - Save your session as you go
+      - जाते ही अपना सेशन सहेजें
 
-      - Notify you when results are live
+      - परिणाम लाइव होने पर आपको सूचित करें
   - key: general.survey_closed
     t: >
-      Sorry, the survey is now closed! You can still review your data but you won't be able to modify it.
+      क्षमा करें, सर्वे अब बंद हो गया है! आप अभी भी अपने डेटा की समीक्षा कर सकते हैं लेकिन आप उसे बदल नहीं कर पाएंगे.
   - key: general.survey_read_only
     t: >
-      You are currently viewing this survey in read-only mode.
+      आप वर्तमान में इस सर्वे को केवल-पढ़ने के लिए मोड में देख रहे हैं।
   - key: general.survey_read_only_back
     t: >
-      <a href="{link}">Go back</a> to the main survey page to start or resume a session.
+      सेशन शुरू करने या फिर से शुरू करने के लिए मुख्य सर्वे पृष्ठ पर <a href="{link}">वापस जाएं</a>।
 
   # surveys
   - key: general.open_surveys
-    t: Open Surveys
+    t: ओपन सर्वे
   - key: general.no_open_surveys
-    t: No surveys are currently open.
+    t: वर्तमान में कोई सर्वेस खुला नहीं है।
   - key: general.closed_surveys
-    t: Closed Surveys
+    t: बंद सर्वेस
   - key: general.start_survey
-    t: Start Survey »
+    t: सर्वे शुरू करें »
   - key: general.continue_survey
-    t: Continue Survey »
+    t: सर्वे जारी रखें »
   - key: general.review_survey
-    t: Review Survey »
+    t: सर्वे की समीक्षा करें »
   - key: general.preview_survey
-    t: Preview Survey »
+    t: सर्वे का पूर्वावलोकन करें »
   - key: general.finish_survey
-    t: Finish Survey »
+    t: सर्वे समाप्त करें »
   - key: general.survey_closed
-    t: This survey is now closed.
+    t: यह सर्वे अब बंद हो गया है।
   - key: general.survey_results
-    t: View Survey Results »
+    t: सर्वे परिणाम देखें »
 
   # footer
   - key: general.privacy_policy
-    t: Privacy Policy
+    t: प्राइवेसी पालिसी
   - key: general.leave_issue
-    t: Questions? Found a bug? <a href="{link}" target="_blank">Leave an issue</a>.
+    t: प्रशन? एक बग मिला? <a href="{link}" target="_blank">कोई समस्या छोड़ें</a>.
 
   # navigation
   - key: general.table_of_contents
-    t: Table of Contents
+    t: लेख-सूची
   - key: general.all_questions_optional
     t: >
-      Note: all questions are optional, reaching 100% completion is not required.
+      नोट: सभी प्रश्न वैकल्पिक हैं, 100% पूर्णता तक पहुँचने की आवश्यकता नहीं है।
   - key: general.data_is_saved
-    t: Your data is saved whenever you navigate to the previous or next section.
+    t: जब भी आप पिछले या अगले अनुभाग में नेविगेट करते हैं तो आपका डेटा सहेजा जाता है।
 
   # thanks
   - key: general.back
-    t: Back
+    t: वापस
   - key: general.thanks
     t: >
-      Thanks for filling out the survey!
+      सर्वे भरने के लिए धन्यवाद!
 
-      Your data is saved. You can review or modify it until the survey closes.
+      आपका डेटा सहेजा गया है। सर्वे बंद होने तक आप इसकी समीक्षा या बदल सकते हैं।
 
-      Also, you can help us get the word out by sharing this survey. Every bit counts, and it'll help make our data even
-      more representative:
-  - key: thanks.learn_more_about # TODO
-    t: 'Some of the features you might want to learn more about:'
-  - key: thanks.knowledge_score # TODO
-    t: Knowledge Score
-  - key: thanks.score_explanation # TODO
+      इसके अलावा, आप इस सर्वेक्षण को शेयर करके इस शब्द को बाहर निकालने में हमारी मदद कर सकते हैं। हर चीज मायने रखती है, और यह हमारे डेटा को समान बनाने में मदद करेगा अधिक प्रतिनिधि:
+  - key: thanks.learn_more_about
+    t: 'कुछ फीचर्स के बारे में आप शायद अधिक जानना चाहें:'
+  - key: thanks.knowledge_score
+    t: ज्ञान (नॉलेज) स्कोर
+  - key: thanks.score_explanation
     t: >
-        You’ve heard or used <span class="score-number score-number-known">{known}</span> out of
-        <span class="score-number score-number-total">{total}</span> features mentioned in the survey, which
-        puts you in the top <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
-        of all respondents.
-  - key: thanks.share_on_twitter # TODO
-    t: Share on Twitter
-  - key: thanks.share_score_message # TODO
+      आपने इनमें से <span class="score-number Score-number-ज्ञात">{known}</span> सुना या इस्तेमाल किया है
+      सर्वेक्षण में उल्लिखित <span class="score-number Score-number-total">{total}</span> विशेषताएं, जो
+      आपको शीर्ष पर रखता है <span class="score-number Score-number-ranking">{knowledgeRankingFromTop}%</span>
+      सभी उत्तरदाताओं का।
+  - key: thanks.share_on_twitter
+    t: ट्विटर पर शेयर करें
+  - key: thanks.share_score_message
     t: >
-        I got a {score}% knowledge score on this year's #{hashtag} survey! Take the survey here: {shareUrl}
+      मुझे इस साल के #{hashtag} सर्वे में {score}% नॉलेज स्कोर मिला है! यहां सर्वे करें: {shareUrl}
   # share
   - key: general.share_subject
     t: >
-      {surveyName} survey
+      {surveyName} सर्वे
   - key: general.share_text
     t: >
-      This year's {surveyName} survey is now open! {link}
+      इस साल का {surveyName} सर्वे अब शुरू हो गया है! {link}
 
   # forms
-  - key: forms.select_option # TODO
-    t: Select option
+  - key: forms.select_option
+    t: विकल्प चुनें
 
   ###########################################################################
   # Nav
   ###########################################################################
 
   - key: nav.surveys
-    t: Surveys
+    t: सर्वेस
   - key: nav.account
-    t: Account
+    t: अकाउंट
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.user_info.title
-    t: About You
+    t: आपके बारे में
   - key: sections.user_info.description
-    t: Let's get to know the real you.
+    t: आइए जानते हैं आप की असलियत।
 
   - key: sections.resources.title
-    t: Resources
+    t: साधन (रिसोर्सेज)
   - key: sections.resources.description
-    t: What {topic} resources do you consult?
+    t: आप किन {topic} संसाधनों की सलाह लेते हैं?
 
   - key: sections.opinions.title
-    t: Opinions
+    t: राय
   - key: sections.opinions.description
-    t: How do you feel about the state of {topic}?
+    t: आप {topic} की स्थिति के बारे में कैसा महसूस करते हैं?
 
   - key: sections.other_tools.title
-    t: Other Tools
+    t: अन्य टूल्स
   - key: sections.other_tools.description
-    t: For these tools & technologies, just check the ones that you use regularly.
+    t: इन टूल्स और तकनीकों के लिए, बस उन उपकरणों की जाँच करें जिनका आप नियमित रूप से उपयोग करते हैं।
 
   ###########################################################################
   # Options
@@ -142,117 +141,117 @@ translations:
 
   # features
   - key: options.features.never_heard
-    t: 🤷 Never heard of it/Not sure what it is
+    t: 🤷 इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
   - key: options.features.heard
-    t: ✅ Know what it is, but haven't used it
+    t: ✅ मुझे पता है कि यह क्या है, लेकिन इसका उपयोग नहीं किया है
   - key: options.features.used
-    t: 👍 I've used it
+    t: 👍 मैंने इसका इस्तेमाल किया है
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: Never heard of it/Not sure what it is
+    t: इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
   - key: options.features.heard.label
-    t: Know what it is, but haven't used it
+    t: मुझे पता है कि यह क्या है, लेकिन इसका उपयोग नहीं किया है
   - key: options.features.used.label
-    t: I've used it
+    t: मैंने इसका इस्तेमाल किया है
 
   # features (short versions)
   - key: options.features.never_heard.short
-    t: Never heard of it
+    t: मैंने इसके बारे में कभी नहीं सुना
   - key: options.features.heard.short
-    t: Know about it
+    t: इसके बारे में पता है
   - key: options.features.used.short
-    t: Have used it
+    t: इसका इस्तेमाल किया है
 
   # patterns
   - key: options.patterns.use_never
-    t: Almost always avoid
+    t: लगभग हमेशा बचें
   - key: options.patterns.use_sparingly
-    t: Use sparingly
+    t: किफायत से इस्तेमाल करो
   - key: options.patterns.use_neutral
-    t: Neutral
+    t: निष्पक्ष
   - key: options.patterns.use_frequently
-    t: Use frequently
+    t: अक्सर प्रयोग करें
   - key: options.patterns.use_always
-    t: Use as much as I can
+    t: जितना हो सके उतना प्रयोग करें
 
   # tools experience
   - key: options.tools.never_heard
-    t: 🤷 Never heard of it/Not sure what it is
+    t: 🤷 इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
   - key: options.tools.interested
-    t: ✅ Heard of it > Would like to learn
+    t: ✅ इसके बारे में सुना > सीखना चाहेंगे
   - key: options.tools.not_interested
-    t: 🚫 Heard of it > Not interested
+    t: 🚫 इसके बारे में सुना > रुचि नहीं है
   - key: options.tools.would_use
-    t: 👍 Used it > Would use again
+    t: 👍 इसका इस्तेमाल किया > फिर से इस्तेमाल करेंगे
   - key: options.tools.would_not_use
-    t: 👎 Used it > Would not use again
+    t: 👎 इसका इस्तेमाल किया > दोबारा इस्तेमाल नहीं करेंगे
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: Never heard of it/Not sure what it is
+    t: इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
   - key: options.tools.interested.legend
-    t: Heard of it > Would like to learn
+    t: इसके बारे में सुना > सीखना चाहेंगे
   - key: options.tools.not_interested.legend
-    t: Heard of it > Not interested
+    t: इसके बारे में सुना > रुचि नहीं है
   - key: options.tools.would_use.legend
-    t: Used it > Would use again
+    t: इसका इस्तेमाल किया > फिर से इस्तेमाल करेंगे
   - key: options.tools.would_not_use.legend
-    t: Used it > Would not use again
+    t: इसका इस्तेमाल किया > दोबारा इस्तेमाल नहीं करेंगे
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
-    t: Never heard
+    t: कभी नहीं सुना
   - key: options.tools.interested.short
-    t: Interested
+    t: इसमें दिलचस्पी है
   - key: options.tools.not_interested.short
-    t: Not interested
+    t: इसमें रुचि नहीं है
   - key: options.tools.would_use.short
-    t: Would use again
+    t: फिर से इस्तेमाल करेंगे
   - key: options.tools.would_not_use.short
-    t: Would not use
+    t: उपयोग नहीं करेंगे
 
   # happiness
   - key: options.happiness.0
-    t: Very Unhappy
+    t: बहुत खुश नहीं
   - key: options.happiness.1
-    t: Unhappy
+    t: खुश नहीं
   - key: options.happiness.2
-    t: Neutral
+    t: निष्पक्ष
   - key: options.happiness.3
-    t: Happy
+    t: खुश
   - key: options.happiness.4
-    t: Very Happy
+    t: बहुत खुश
 
   # opinions
   - key: options.opinions.0
-    t: Disagree Strongly
+    t: दृढ़ता से असहमत
   - key: options.opinions.1
-    t: Disagree
+    t: असहमत
   - key: options.opinions.2
-    t: Neutral
+    t: निष्पक्ष
   - key: options.opinions.3
-    t: Agree
+    t: सहमत होना
   - key: options.opinions.4
-    t: Agree Strongly
+    t: दृढ़ता से सहमत
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
-    t: Less than one year
+    t: एक वर्ष से कम
   - key: options.years_of_experience.range_1_2
-    t: 1 to 2 years
+    t: 1 से 2 साल
   - key: options.years_of_experience.range_2_5
-    t: 2 to 5 years
+    t: 2 से 5 साल
   - key: options.years_of_experience.range_5_10
-    t: 5 to 10 years
+    t: 5 से 10 साल
   - key: options.years_of_experience.range_10_20
-    t: 10 to 20 years
+    t: 10 से 20 वर्ष
   - key: options.years_of_experience.range_more_than_20
-    t: More than 20 years
+    t: 20 साल से अधिक
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "<1"
+    t: '<1'
   - key: options.years_of_experience.range_1_2.short
     t: 1-2
   - key: options.years_of_experience.range_2_5.short
@@ -262,25 +261,25 @@ translations:
   - key: options.years_of_experience.range_10_20.short
     t: 10-20
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20"
+    t: '>20'
 
   # company size
   - key: options.company_size.range_1
-    t: One employee
+    t: एक कर्मचारी (एम्प्लोयी)
   - key: options.company_size.range_1_5
-    t: 1 to 5 employees
+    t: 1 से 5 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_5_10
-    t: 5 to 10 employees
+    t: 5 से 10 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_10_20
-    t: 10 to 20 employees
+    t: 10 से 20 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_20_50
-    t: 20 to 50 employees
+    t: 20 से 50 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_50_100
-    t: 50 to 100 employees
+    t: 50 से 100 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_100_1000
-    t: 100 to 1000 employees
+    t: 100 से 1000 कर्मचारी (एम्प्लाइज)
   - key: options.company_size.range_more_than_1000
-    t: More than 1000 employees
+    t: 1000 से अधिक कर्मचारी (एम्प्लाइज)
 
   # company size (short versions)
   - key: options.company_size.range_1.short
@@ -298,11 +297,11 @@ translations:
   - key: options.company_size.range_100_1000.short
     t: 100-1000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1000"
+    t: '>1000'
 
   # salary
   - key: options.yearly_salary.range_work_for_free
-    t: I work for free
+    t: मैं मुफ्त में काम करता हूं
   - key: options.yearly_salary.range_0_10
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30
@@ -314,11 +313,11 @@ translations:
   - key: options.yearly_salary.range_100_200
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200
-    t: more than $200k
+    t: $200k से अधिक
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short
-    t: "$0"
+    t: '$0'
   - key: options.yearly_salary.range_0_10.short
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30.short
@@ -330,143 +329,142 @@ translations:
   - key: options.yearly_salary.range_100_200.short
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: '>$200k'
 
   # job titles
   - key: options.job_title.front_end_developer
-    t: Front End Developer/Engineer
+    t: फ्रंट एंड डेवलपर/इंजीनियर
   - key: options.job_title.back_end_developer
-    t: Back End Developer/Engineer
+    t: बैक एंड डेवलपर/इंजीनियर
   - key: options.job_title.full_stack_developer
-    t: Full Stack Developer/Engineer
+    t: फुल स्टैक डेवलपर/इंजीनियर
   - key: options.job_title.web_developer
-    t: Web Developer
+    t: वेब डेवलपर
   - key: options.job_title.web_designer
-    t: Web Designer
+    t: वेब डिजाइनर
   - key: options.job_title.ux_designer
-    t: UX Designer
+    t: एक्स (UX) डिजाइनर
   - key: options.job_title.ui_designer
-    t: UI Designer
+    t: यूआई (UI) डिजाइनर
   - key: options.job_title.back_end_dev
-    t: Back-end Developer/Engineer
+    t: बैक-एंड डेवलपर/इंजीनियर
 
   # JavaScript proficiency
 
   - key: options.javascript_proficiency.0
-    t: Not able to write any JavaScript
+    t: कोई जावास्क्रिप्ट लिखने में सक्षम नहीं
   - key: options.javascript_proficiency.1
-    t: Writing short, simple JavaScript or jQuery statements
+    t: संक्षिप्त, सरल जावास्क्रिप्ट या jQuery कथन लिखना
   - key: options.javascript_proficiency.2
-    t: Working on existing front-end codebases using modern frameworks (React, Vue, etc.)
+    t: आधुनिक फ्रेमवर्क (React, Vue, etc.) का उपयोग करते हुए मौजूदा फ्रंट-एंड कोडबेस पर काम करना
   - key: options.javascript_proficiency.3
-    t: Architecturing entire front-end codebases from scratch
+    t: स्क्रैच से पूरे फ्रंट-एंड कोडबेस को आर्किटेक्चर करना
   - key: options.javascript_proficiency.4
-    t: Handling advanced front-end patterns (state management, data loading, etc.)
+    t: उन्नत फ्रंट-एंड पैटर्न (स्टेट मैनेजमेंट , डेटा लोडिंग,etc.) को संभालना
 
   # CSS proficiency
 
   - key: options.css_proficiency.0
-    t: Virtually no knowledge of CSS
+    t: वस्तुतः CSS का कोई ज्ञान नहीं
   - key: options.css_proficiency.1
-    t: Using CSS frameworks and tweaking existing styles
+    t: CSS फ्रेमवर्क का उपयोग करना और मौजूदा शैलियों में बदलाव करना
   - key: options.css_proficiency.2
-    t: Knowing specificity rules, being able to create layouts
+    t: विशिष्टता नियमों को जानना, लेआउट बनाने में सक्षम होना
   - key: options.css_proficiency.3
-    t: Mastering animations, interactions, transitions, etc.
+    t: एनिमेशन, इंटरैक्शन, ट्रांज़िशन,etc में महारत हासिल करना।
   - key: options.css_proficiency.4
-    t: Able to style an entire front-end from scratch following a consistent methodology
+    t: एक सुसंगत कार्यप्रणाली का पालन करते हुए खरोंच से पूरे फ्रंट-एंड को स्टाइल करने में सक्षम
 
   # Back-end proficiency
 
   - key: options.backend_proficiency.0
-    t: Not able to handle any back-end work
+    t: किसी भी बैक-एंड कार्य को संभालने में सक्षम नहीं
   - key: options.backend_proficiency.1
-    t: Able to set up all-in-one CMSs (WordPress, etc.) or static site generators (Jekyll, etc.)
+    t: ऑल-इन-वन सीएमएस (वर्डप्रेस,etc.) या स्टैटिक साइट जनरेटर स्थापित करने में सक्षम (जेकिल्ल, etc.)
   - key: options.backend_proficiency.2
-    t: Able to develop apps using pre-existing frameworks (Rails, Laravel, etc.)
+    t: पहले से मौजूद फ़्रेमवर्क्स (रेल्स, लारवेल, etc.) का उपयोग करके ऐप्स बनाना करने में सक्षम
   - key: options.backend_proficiency.3
-    t: Setting up an entire back-end from scratch (Go, Node.js, etc.)
+    t: स्क्रैच से संपूर्ण बैक-एंड सेट करना (गो, नोड.JS, etc.)
   - key: options.backend_proficiency.4
-    t: Able to handle complex multi-server or microservices architectures
+    t: जटिल मल्टी-सर्वर या माइक्रोसर्विस आर्किटेक्चर को संभालने में सक्षम
 
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: None
+    t: कोई भी नहीं
   - key: options.proficiency.1
-    t: Beginner
+    t: नौसिखिया
   - key: options.proficiency.2
-    t: Intermediate
+    t: मध्यम
   - key: options.proficiency.3
-    t: Advanced
+    t: विकसित
   - key: options.proficiency.4
-    t: Expert
+    t: विशेषज्ञ
 
   # Gender
 
   - key: options.gender.female
-    t: Female
+    t: महिला
   - key: options.gender.male
-    t: Male
+    t: नर
   - key: options.gender.non_binary
-    t: Non-Binary/Third Gender
+    t: नॉन-बाइनरी /तीसरा लिंग
   - key: options.gender.prefer_not_to_say
-    t: Prefer not to say
+    t: चुप रहना पसंद करूंगा
 
   # Race & Ethnicity
 
-  - key: options.race_ethnicity.white_european # TODO
-    t: White or of European descent
-  - key: options.race_ethnicity.south_asian # TODO
-    t: South Asian
-  - key: options.race_ethnicity.hispanic_latin # TODO
-    t: Hispanic or Latino/Latina
-  - key: options.race_ethnicity.east_asian # TODO
-    t: East Asian
-  - key: options.race_ethnicity.middle_eastern # TODO
-    t: Middle Eastern
-  - key: options.race_ethnicity.black_african # TODO
-    t: Black or of African descent
-  - key: options.race_ethnicity.multiracial # TODO
-    t: Multiracial
-  - key: options.race_ethnicity.biracial # TODO
-    t: Biracial
-  - key: options.race_ethnicity.native_american_islander_australian # TODO
-    t: Native American, Pacific Islander, or Indigenous Australian
+  - key: options.race_ethnicity.white_european
+    t: सफेद या यूरोपीय मूल का
+  - key: options.race_ethnicity.south_asian
+    t: दक्षिण एशियाई
+  - key: options.race_ethnicity.hispanic_latin
+    t: हिस्पैनिक या लातीनी/लैटिना
+  - key: options.race_ethnicity.east_asian
+    t: पूर्व एशियाई
+  - key: options.race_ethnicity.middle_eastern
+    t: मिडिल ईस्टर्न
+  - key: options.race_ethnicity.black_african
+    t: काला या अफ्रीकी मूल का
+  - key: options.race_ethnicity.multiracial
+    t: मुलतिरसल
+  - key: options.race_ethnicity.biracial
+    t: बै-रेसियल
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: मूल अमेरिकी, प्रशांत द्वीप वासी, या स्वदेशी ऑस्ट्रेलियाई
 
   # Form Factors
-  - key: options.form_factors.desktop # TODO
-    t: Desktop
-  - key: options.form_factors.smartphone # TODO
-    t: Smartphone
-  - key: options.form_factors.feature_phone # TODO
-    t: Feature phone
-  - key: options.form_factors.tablet # TODO
-    t: Tablet
-  - key: options.form_factors.smart_watch # TODO
-    t: Smartwatch
-  - key: options.form_factors.tv # TODO
-    t: TV
-  - key: options.form_factors.gaming_console # TODO
-    t: Gaming console
-  - key: options.form_factors.screen_reader # TODO
-    t: Screen reader
-  - key: options.form_factors.print # TODO
-    t: Print
+  - key: options.form_factors.desktop
+    t: डेस्कटॉप
+  - key: options.form_factors.smartphone
+    t: स्मार्टफोन
+  - key: options.form_factors.featureप्रिंट_phone
+    t: फीचर फोन
+  - key: options.form_factors.tablet
+    t: टेबलेट
+  - key: options.form_factors.smart_watch
+    t: स्मार्टवाच
+  - key: options.form_factors.tv
+    t: टीवी
+  - key: options.form_factors.gaming_console
+    t: गेमिंग कंसोल
+  - key: options.form_factors.screen_reader
+    t: स्क्रीन रीडर
+  - key: options.form_factors.print
+    t: प्रिंट
 
   ###########################################################################
   # Tools
   ###########################################################################
 
   - key: tools.other_tools
-    t: Other Options
+    t: अन्य विकल्प
   - key: tools.other_tools.description
-    t: Other options you use for the current section not mentioned in the list above
+    t: वर्तमान अनुभाग के लिए आपके द्वारा उपयोग किए जाने वाले अन्य विकल्पों का उल्लेख उपरोक्त सूची में नहीं किया गया है
   - key: tools.happiness
-    t: Overall Happiness
+    t: समग्र खुशी
   - key: tools.happiness.description
     t: >
-      On a scale of one (very unhappy) to five (very happy), how happy are
-      you with the current overall state of things as it relates to the options listed above?
+      एक (बहुत दुखी) से पांच (बहुत खुश) के पैमाने पर, आप वर्तमान समग्र स्थिति से कितने खुश हैं क्योंकि यह ऊपर सूचीबद्ध विकल्पों से संबंधित है?
 
   ###########################################################################
   # Demographics (About You/User Info)
@@ -474,112 +472,111 @@ translations:
 
   # years of experience
   - key: user_info.years_of_experience
-    t: Years of Experience
+    t: वर्षों का अनुभव
   - key: user_info.years_of_experience.description
-    t: How long you've been working or studying in this field.
+    t: आप इस क्षेत्र में कितने समय से काम कर रहे हैं या पढ़ रहे हैं।
 
   # company size
   - key: user_info.company_size
-    t: Company Size
+    t: कंपनी का साइज
   - key: user_info.company_size.description
-    t: How big your company is.
+    t: आपकी कंपनी कितनी बड़ी है।
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: Yearly Salary
+    t: वार्षिक वेतन
   - key: user_info.yearly_salary.description
-    t: In USD.
+    t: अमरीकी डालर में।
 
   # job title
   - key: user_info.job_title
-    t: Job Title
+    t: नौकरी का नाम
   - key: user_info.job_title.description
-    t: How do you introduce yourself at parties?
+    t: आप पार्टियों में अपना परिचय कैसे देते हैं?
 
   # javascript proficiency
 
   - key: user_info.javascript_proficiency
-    t: CSS Proficiency
+    t: जावास्क्रिप्ट प्रवीणता
   - key: user_info.javascript_proficiency.description
-    t: How proficient are you at JavaScript?
+    t: आप जावास्क्रिप्ट में कितने कुशल हैं?
 
   # css proficiency
 
   - key: user_info.css_proficiency
-    t: CSS Proficiency
+    t: सीएसएस (CSS) प्रवीणता
   - key: user_info.css_proficiency.description
-    t: How proficient are you at CSS?
+    t: आप सीएसएस (CSS) में कितने कुशल हैं?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: Back-end Proficiency
+    t: बैक-एंड प्रवीणता
   - key: user_info.backend_proficiency.description
-    t: How proficient are you at back-end development?
+    t: बैक-एंड डेवलपमेंट में आप कितने कुशल हैं?
 
   # gender
   - key: user_info.gender
-    t: Gender
-
+    t: लिंग
   # skin tone/appearance
   - key: user_info.race_ethnicity
-    t: Race & Ethnicity # TODO
+    t: जाति और जातीयता
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: How did you find out about this survey?
+    t: आपको इस सर्वे के बारे में कैसे पता चला?
   - key: user_info.email
-    t: Your Email
+    t: तुम्हारा ईमेल
   - key: user_info.country
-    t: Your Country
+    t: आपका देश
 
   ###########################################################################
   # Other Tools
   ###########################################################################
 
   - key: tools_others.text_editors
-    t: Text Editors
+    t: टेक्स्ट एडिटर्स
   - key: tools_others.text_editors.description
-    t: Which text editor(s) do you regularly use?
+    t: आप किस टेक्स्ट एडिटर्स का नियमित रूप से उपयोग करते हैं?
   - key: tools_others.text_editors.others
-    t: Other Text Editors
+    t: अन्य टेक्स्ट एडिटर्स
   - key: tools_others.text_editors.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   - key: tools_others.utilities
-    t: Utilities
+    t: यूटिलिटीज
   - key: tools_others.utilities.description
-    t: Which utilities or tools do you regularly use?
+    t: आप किन यूटिलिटीज या टूल्स का नियमित रूप से उपयोग करते हैं?
   - key: tools_others.utilities.others
-    t: Other Utilities
+    t: अन्य यूटिलिटीज
   - key: tools_others.utilities.others.description
-    t: Other utilities (freeform field).
+    t: अन्य यूटिलिटीज (फ्रीफॉर्म फ़ील्ड).
 
   - key: tools_others.browsers
-    t: Browsers
+    t: ब्राउज़र्स
   - key: tools_others.browsers.description
-    t: Which browser(s) do you primarily work in during initial development?
+    t: प्राइमरी वर्क के दौरान आप मुख्य रूप से किस ब्राउज़र में काम करते हैं?
   - key: tools_others.browsers.others
-    t: Other Browsers
+    t: अन्य ब्राउज़रों
   - key: tools_others.browsers.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   - key: tools_others.build_tools
-    t: Build Tools
+    t: बिल्ड टूल्स
   - key: tools_others.build_tools.description
-    t: Which build tools do you use?
+    t: आप किस बिल्ड टूल्स का उपयोग करते हैं?
   - key: tools_others.build_tools.others
-    t: Other Build Tools
+    t: अन्य बिल्ड टूल्स
   - key: tools_others.build_tools.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   - key: tools_others.non_js_languages
-    t: Non-JavaScript Languages
+    t: नॉन-जावास्क्रिप्ट लैंग्वेजेज
   - key: tools_others.non_js_languages.description
-    t: Which other programming languages do you use?
+    t: आप किन अन्य प्रोग्रामिंग लैंग्वेजेज का उपयोग करते हैं?
   - key: tools_others.non_js_languages.others
-    t: Other Languages
+    t: अन्य लैंग्वेजेज
   - key: tools_others.non_js_languages.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   ###########################################################################
   # Resources
@@ -587,30 +584,30 @@ translations:
 
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Blogs & Magazines
+    t: ब्लॉग और पत्रिकाएं
   - key: resources.blogs_news_magazines.description
-    t: Which blogs/magazines/etc. do you read?
+    t: कौन से ब्लॉग/पत्रिकाएं/आदि। क्या आप पढ़ते हैं?
   - key: resources.blogs_news_magazines.others
-    t: Other Blogs & Magazines
+    t: अन्य ब्लॉग और पत्रिकाएं
   - key: resources.blogs_news_magazines.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   # sites & courses
   - key: resources.sites_courses
-    t: Sites & Courses
+    t: साइटें और कोर्सेज
   - key: resources.sites_courses.description
-    t: Which sites/courses/etc. do you consult?
+    t: कौन सी साइट/कोर्सेज/etc. क्या आप परामर्श करते हैं?
   - key: resources.sites_courses.others
-    t: Other Sites & Courses
+    t: अन्य साइटें और कोर्सेज
   - key: resources.sites_courses.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   # podcasts
   - key: resources.podcasts
-    t: Podcasts
+    t: पॉडकास्ट
   - key: resources.podcasts.description
-    t: Which programming-related podcasts do you listen to?
+    t: आप कौन से प्रोग्रामिंग-संबंधित पॉडकास्ट सुनते हैं?
   - key: resources.podcasts.others
-    t: Other Podcasts
+    t: अन्य पॉडकास्ट
   - key: resources.podcasts.others.description
-    t: Other answers (freeform field).
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।

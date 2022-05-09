@@ -7,79 +7,79 @@ translations:
 
   - key: general.survey_intro_js2019
     t: >
-      The JavaScript world could use a bit of classification.
+      जावास्क्रिप्ट दुनिया कुछ वर्गीकरण का उपयोग कर सकती है।
 
 
-      Since 2016, this survey has collected 
-      data from over 20,000 developers each year to identify current and upcoming trends.
+      2016 से, यह सर्वे एकत्र किया गया है
+      वर्तमान और आगामी रुझानों की पहचान करने के लिए प्रत्येक वर्ष 20,000 से अधिक डेवलपर्स से डेटा।
 
 
-      Take the survey and help us find out which libraries developers 
-      want to learn next, which have the best satisfaction ratings, and much more.
+      सर्वे करें और यह पता लगाने में हमारी सहायता करें कि कौन से लाइब्रेरीज डेवलपर्स
+      आगे सीखना चाहते हैं, जिसकी संतुष्टि रेटिंग सबसे अच्छी है, और भी बहुत कुछ।
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.syntax.title
-    t: Syntax
+    t: सिंटेक्स
   - key: sections.syntax.description
-    t: The grammar of JavaScript.
+    t: जावास्क्रिप्ट का व्याकरण!
 
   - key: sections.language.title
-    t: Language
+    t: भाषा (लैंग्वेज)
   - key: sections.language.description
-    t: The vocabulary of JavaScript.
+    t: जावास्क्रिप्ट की वोकैबुलरी.
 
   - key: sections.data_structures.title
-    t: Data Structures
+    t: डेटा स्त्रुक्टुरेस
   - key: sections.data_structures.description
-    t: How you store and manipulate data.
+    t: आप डेटा को कैसे स्टोर और हेरफेर करते हैं।
 
   - key: sections.browser_apis.title
-    t: Browser APIs
+    t: ब्राउज़र एपीआई
   - key: sections.browser_apis.description
-    t: The features provided by the browser.
+    t: ब्राउज़र द्वारा प्रदान की जाने वाली सुविधाएँ।
 
   - key: sections.other_features.title
-    t: Other Features
+    t: अन्य सुविधाओं
   - key: sections.other_features.description
-    t: Other technologies and patterns
+    t: अन्य प्रौद्योगिकियां और पैटर्न
 
   - key: sections.patterns.title
-    t: Patterns
+    t: पैटर्न्स
   - key: sections.patterns.description
-    t: How you prefer writing code
+    t: आप कैसे कोड लिखना पसंद करते हैं
 
   - key: sections.javascript_flavors.title
-    t: JavaScript Flavors
+    t: जावास्क्रिप्ट फ्लेवर
   - key: sections.javascript_flavors.description
-    t: Languages that compile to JavaScript
+    t: जावास्क्रिप्ट को कम्पाइले करने वाली लैंग्वेजेज (भाषाएँ)
 
   - key: sections.front_end_frameworks.title
-    t: Front-end Frameworks
+    t: फ्रंट-एंड फ्रेमवर्क
   - key: sections.front_end_frameworks.description
-    t: Front-end frameworks and libraries
+    t: फ्रंट-एंड फ्रेमवर्क और लाइब्रेरी
 
   - key: sections.datalayer.title
-    t: Data Layer
+    t: डेटा परत
   - key: sections.datalayer.description
-    t: Loading and managing data in your app
+    t: आपके ऐप में डेटा लोड और प्रबंधित करना
 
   - key: sections.back_end_frameworks.title
-    t: Back-end Frameworks
+    t: बैक-एंड फ्रेमवर्क
   - key: sections.back_end_frameworks.description
-    t: JavaScript on the server
+    t: सर्वर पर जावास्क्रिप्ट
 
   - key: sections.testing.title
-    t: Testing
+    t: परिक्षण
   - key: sections.testing.description
-    t: Tools for testing your code
+    t: आपके कोड के परीक्षण के लिए उपकरण
 
   - key: sections.mobile_desktop.title
-    t: Mobile & Desktop
+    t: मोबाइल और डेस्कटॉप
   - key: sections.mobile_desktop.description
-    t: JavaScript for mobile devices and desktop apps
+    t: मोबाइल उपकरणों और डेस्कटॉप ऐप्स के लिए जावास्क्रिप्ट
 
   ###########################################################################
   # Options
@@ -87,23 +87,23 @@ translations:
 
   # CSS for print
   - key: options.css_for_print.0
-    t: I (almost) never write print styles
+    t: मैं (लगभग) कभी भी प्रिंट स्टाइल नहीं लिखता
   - key: options.css_for_print.1
-    t: I occasionally write print styles
+    t: मैं कभी-कभी प्रिंट स्टाइल लिखता हूं
   - key: options.css_for_print.2
-    t: I write print styles as part of most projects
+    t: मैं अधिकांश प्रोजेक्ट्स के हिस्से के रूप में प्रिंट शैलियों को लिखता हूं
   - key: options.css_for_print.3
-    t: I focus mainly on CSS for print
+    t: मैं मुख्य रूप से प्रिंट के लिए सीएसएस (CSS) पर ध्यान केंद्रित करता हूं
 
   # CSS for email
   - key: options.css_for_email.0
-    t: I (almost) never write CSS for email clients
+    t: मैं (लगभग) कभी भी ईमेल क्लाइंट के लिए CSS नहीं लिखता
   - key: options.css_for_email.1
-    t: I occasionally write CSS for email clients
+    t: मैं कभी-कभी ईमेल क्लाइंट के लिए CSS लिखता हूं
   - key: options.css_for_email.2
-    t: I write CSS for email clients as part of most projects
+    t: मैं अधिकांश प्रोजेक्ट्स के हिस्से के रूप में ईमेल क्लाइंट के लिए सीएसएस लिखता हूं
   - key: options.css_for_email.3
-    t: I focus mainly on CSS for email clients
+    t: मैं मुख्य रूप से ईमेल क्लाइंट के लिए CSS पर ध्यान केंद्रित करता हूँ
 
   ###########################################################################
   # Features
@@ -111,105 +111,105 @@ translations:
 
   # syntax
   - key: features.destructuring
-    t: Destructuring
+    t: डिस्ट्रक्टरिंग
   - key: features.destructuring.description
-    t: "Example: `const { foo } = bar`"
+    t: 'उदाहरण: `const { foo } = bar`'
   - key: features.spread_operator
-    t: Spread operator
+    t: स्प्रेड ऑपरेटर
   - key: features.spread_operator.description
-    t: "Example: `[...array1, ...array2]`"
+    t: 'उदाहरण: `[...array1, ...array2]`'
   - key: features.arrow_functions
-    t: Arrow Functions
+    t: एरो फंक्शन्स
   - key: features.arrow_functions.description
-    t: "Example: `const foo = () => {}`"
+    t: 'उदाहरण: `const foo = () => {}`'
 
   # language
   - key: features.proxies
-    t: Proxies
+    t: प्रोक्सीस
   - key: features.async_await
-    t: Async/Await
+    t: असिंक/अवैट
   - key: features.promises
-    t: Promises
+    t: प्रोमिसेस
   - key: features.decorators
-    t: Decorators
+    t: डेकोरेटर्स
   - key: features.decorators.description
     t: >
-      In its simplest form, a decorator is simply a way of 
-      wrapping one piece of code with another — literally “decorating” it.
+      अपने सरलतम रूप में, एक डेकोरेटर बस एक तरीका है
+      कोड के एक टुकड़े को दूसरे के साथ लपेटना - शाब्दिक रूप से इसे "डेकोरेटिंग"।
 
   # data structures
   - key: features.maps
-    t: Maps
+    t: मैप्स
   - key: features.sets
-    t: Sets
+    t: सेट्स
   - key: features.typed_arrays
-    t: Typed Arrays
+    t: टाइप्ड अर्रेस
   - key: array_prototype_flat
     t: Array.prototype.flat
 
   # browser apis
   - key: features.service_workers
-    t: Service Workers
+    t: सर्विस वर्कर्स
   - key: features.local_storage
-    t: LocalStorage
+    t: लोकॉस्टोरज
   - key: features.i18n
     t: i18n
   - key: features.web_components
-    t: Web Components
+    t: वेब कम्पोनेंट्स
   - key: features.web_audio
-    t: Web Audio API
+    t: वेब ऑडियो एपीआई(API)
   - key: features.webgl
-    t: WebGL
+    t: वेब जीएल (WebGL)
   - key: features.web_animations
-    t: Web Animations API
+    t: वेब एनिमेशन्स एपीआई (API)
   - key: features.webrtc
-    t: WebRTC
+    t: वेब आरटीसि (WebRTC)
   - key: features.web_speech
-    t: Web Speech API
+    t: वेब स्पीच एपीआई (Web Speech API)
   - key: features.webvr
-    t: WebVR
+    t: वेबVR (WebVR)
   - key: features.websocket
-    t: Websocket
+    t: वेबसॉकेट
   - key: features.fetch
-    t: Fetch API
+    t: फेच एपीआई (Fetch API)
 
   # other features
   - key: features.pwa
-    t: Progressive Web Apps (PWA)
+    t: प्रोग्रेसिव वेब एप्प्स (PWA)
   - key: features.wasm
-    t: WebAssembly (WASM)
+    t: वेबसेमब्ली (WASM)
 
   # patterns
   - key: patterns.object_oriented_programming
-    t: Object-Oriented Programming
+    t: ऑब्जेक्ट ओरिएंटेड प्रोग्रामिंग
   - key: features.functional_programming
-    t: Functional Programming
+    t: फंक्शनल प्रोग्रामिंग
   - key: features.reactive_programming
-    t: Reactive Programming
+    t: रिएक्टिव प्रोग्रामिंग
 
   ###########################################################################
   # Opinions
   ###########################################################################
 
   - key: opinions.js_moving_in_right_direction
-    t: JavaScript is moving in the right direction
+    t: जावास्क्रिप्ट सही दिशा में आगे बढ़ रहा है
 
   - key: opinions.building_js_apps_overly_complex
-    t: Building JavaScript apps is overly complex right now
+    t: जावास्क्रिप्ट एप्प्स बनाना अभी बहुत जटिल है
 
   - key: opinions.js_over_used_online
-    t: JavaScript is over-used online
+    t: ऑनलाइन मे जावास्क्रिप्ट का अत्यधिक उपयोग किया जाता है
 
   - key: opinions.enjoy_building_js_apps
-    t: I enjoy building JavaScript apps
+    t: मुझे जावास्क्रिप्ट ऐप्स बनाने में मज़ा आता है
 
   - key: opinions.would_like_js_to_be_main_lang
-    t: I would like JavaScript to be my main programming language
+    t: मैं चाहूंगा कि जावास्क्रिप्ट मेरी मुख्य प्रोग्रामिंग भाषा हो
 
   - key: opinions.js_ecosystem_changing_to_fast
-    t: The JavaScript ecosystem is changing too fast
+    t: जावास्क्रिप्ट इकोसिस्टम बहुत तेजी से बदल रहा है
 
   - key: opinions.missing_from_js
-    t: What do you feel is currently missing from JavaScript?
+    t: आपको क्या लगता है कि वर्तमान में जावास्क्रिप्ट से क्या गायब है?
   - key: opinions.missing_from_js.description
-    t: Features you'd like to see in JavaScript one day.
+    t: वे फीचफीचर्सर्स जिन्हें आप एक दिन जावास्क्रिप्ट में देखना चाहेंगे

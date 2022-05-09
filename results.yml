@@ -25,7 +25,7 @@ translations:
   - key: tools.links
     t: लिंक
   - key: tools.github_link
-    t: GitHub
+    t: गिटहब (GitHub)
   - key: tools.github_stars
     t: सितारे
   - key: tools.homepage_link

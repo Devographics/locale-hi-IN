@@ -5,16 +5,16 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.survey_intro_css2020 # TODO (Outdated translation)
+  - key: general.survey_intro_css2020  (Outdated translation)
     t: >
       CSS पहले से कहीं ज्यादा तेजी से विकसित हो रहा है।
 
 
-      Flexbox, Grid, Multi-Column… CSS-in-JS जैसे पूरे नए प्रतिमानों के बारे में कुछ नहीं कहना।
+      फ्लेक्सबॉक्स, ग्रिड, मल्टी-कॉलम… CSS-in-JS जैसे पूरे नए प्रतिमानों के बारे में कुछ नहीं कहना।
 
 
-      इसलिए हमारे वार्षिक स्टेट ऑफ जावास्क्रिप्ट सर्वे की सफलता के बाद, 
-      हमने अक्षांशों के रुझानों की पहचान करने में मदद करने के लिए शैलियों और चयनकर्ताओं 
+      इसलिए हमारे वार्षिक स्टेट ऑफ जावास्क्रिप्ट सर्वे की सफलता के बाद,
+      हमने अक्षांशों के रुझानों की पहचान करने में मदद करने के लिए शैलियों और चयनकर्ताओं
       की दुनिया पर फैसला किया है… और बढ़ती "महान फ्रंट-एंड डिवाइड" को जोड़ने की कोशिश करें!
 
   ###########################################################################
@@ -61,15 +61,15 @@ translations:
   - key: sections.pre_post_processors.description
     t: उपयोगिताएँ जो सीएसएस को बढ़ाती हैं।
 
-  - key: sections.pre_post_processors_others.title # TODO
-    t: Other Pre-/Post-processors
+  - key: sections.pre_post_processors_others.title
+    t: अन्य प्री-/पोस्ट-प्रोसेसर
 
   - key: sections.css_frameworks.title
     t: CSS फ़्रेमवर्क
   - key: sections.css_frameworks.description
     t: लाइब्रेरी जो आपको पूर्व-निर्मित घटकों और शैलियाँ देते हैं।
 
-  - key: sections.css_frameworks_others.title # TODO
+  - key: sections.css_frameworks_others.title
     t: Other CSS Frameworks
 
   - key: sections.css_methodologies.title
@@ -77,7 +77,7 @@ translations:
   - key: sections.css_methodologies.description
     t: क्लीनर CSS लिखने के लिए संहिताबद्ध तरीके।
 
-  - key: sections.css_methodologies_others.title # TODO
+  - key: sections.css_methodologies_others.title
     t: Other CSS Methodologies
 
   - key: sections.css_in_js.title
@@ -85,7 +85,7 @@ translations:
   - key: sections.css_in_js.description
     t: लाइब्रेरी जो सीएसएस को जावास्क्रिप्ट कोड में एकीकृत करने में मदद करते हैं।
 
-  - key: sections.css_in_js_others.title # TODO
+  - key: sections.css_in_js_others.title
     t: Other CSS-in-JS Libraries
 
   - key: sections.environments.title
@@ -138,7 +138,7 @@ translations:
   - key: features.exclusions
     t: CSS बहिष्करण
   - key: features.position_sticky
-    t: "Position: sticky"
+    t: 'Position: sticky'
   - key: features.logical_properties
     t: तार्किक गुण
   - key: features.logical_properties.description
