@@ -5,7 +5,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.survey_intro_css2020  (Outdated translation)
+  - key: general.state_of_css.intro  (Outdated translation)
     t: >
       CSS पहले से कहीं ज्यादा तेजी से विकसित हो रहा है।
 

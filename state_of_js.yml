@@ -5,7 +5,7 @@ translations:
   # General
   ###########################################################################
 
-  - key: general.survey_intro_js2019
+  - key: general.state_of_js.intro
     t: >
       जावास्क्रिप्ट दुनिया कुछ वर्गीकरण का उपयोग कर सकती है।
 
