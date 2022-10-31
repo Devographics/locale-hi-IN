@@ -112,16 +112,10 @@ translations:
   # syntax
   - key: features.destructuring
     t: डिस्ट्रक्टरिंग
-  - key: features.destructuring.description
-    t: 'उदाहरण: `const { foo } = bar`'
   - key: features.spread_operator
     t: स्प्रेड ऑपरेटर
-  - key: features.spread_operator.description
-    t: 'उदाहरण: `[...array1, ...array2]`'
   - key: features.arrow_functions
     t: एरो फंक्शन्स
-  - key: features.arrow_functions.description
-    t: 'उदाहरण: `const foo = () => {}`'
 
   # language
   - key: features.proxies
