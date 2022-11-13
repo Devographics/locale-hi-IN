@@ -44,7 +44,7 @@ translations:
   - key: general.preview_survey
     t: सर्वे का पूर्वावलोकन करें »
   - key: general.finish_survey
-    t: सर्वे समाप्त करें »
+    t: सर्वे समाप्त करें
   - key: general.survey_closed
     t: यह सर्वे अब बंद हो गया है।
   - key: general.survey_results
