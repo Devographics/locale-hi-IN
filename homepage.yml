@@ -11,11 +11,10 @@ translations:
   - key: homepage.get_in_touch
     t: संपर्क में रहो
   - key: homepage.made_by
-    t: 'स्टेट ऑफ़ सीएसएस (CSS) द्वारा बनाई गई है:'
-  - key: homepage.leave_issue
-    t: एक मुद्दा छोड़ दो
+    t: "स्टेट ऑफ़ सीएसएस (CSS) द्वारा बनाई गई है:"
+
   - key: homepage.previous_years
-    t: 'पिछला साल:'
+    t: "पिछला साल:"
   - key: homepage.intro
     t: >
       ## सीएसएस पहले से कहीं ज्यादा तेजी से विकसित हो रहा है।
