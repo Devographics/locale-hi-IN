@@ -18,7 +18,7 @@ translations:
       - जाते ही अपना सेशन सहेजें
 
       - परिणाम लाइव होने पर आपको सूचित करें
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       क्षमा करें, सर्वे अब बंद हो गया है! आप अभी भी अपने डेटा की समीक्षा कर सकते हैं लेकिन आप उसे बदल नहीं कर पाएंगे.
   - key: general.survey_read_only
@@ -76,7 +76,7 @@ translations:
 
       इसके अलावा, आप इस सर्वेक्षण को शेयर करके इस शब्द को बाहर निकालने में हमारी मदद कर सकते हैं। हर चीज मायने रखती है, और यह हमारे डेटा को समान बनाने में मदद करेगा अधिक प्रतिनिधि:
   - key: thanks.learn_more_about
-    t: 'कुछ फीचर्स के बारे में आप शायद अधिक जानना चाहें:'
+    t: "कुछ फीचर्स के बारे में आप शायद अधिक जानना चाहें:"
   - key: thanks.knowledge_score
     t: ज्ञान (नॉलेज) स्कोर
   - key: thanks.score_explanation
@@ -251,7 +251,7 @@ translations:
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: '<1'
+    t: "<1"
   - key: options.years_of_experience.range_1_2.short
     t: 1-2
   - key: options.years_of_experience.range_2_5.short
@@ -261,7 +261,7 @@ translations:
   - key: options.years_of_experience.range_10_20.short
     t: 10-20
   - key: options.years_of_experience.range_more_than_20.short
-    t: '>20'
+    t: ">20"
 
   # company size
   - key: options.company_size.range_1
@@ -297,7 +297,7 @@ translations:
   - key: options.company_size.range_100_1000.short
     t: 100-1000
   - key: options.company_size.range_more_than_1000.short
-    t: '>1000'
+    t: ">1000"
 
   # salary
   - key: options.yearly_salary.range_work_for_free
@@ -317,7 +317,7 @@ translations:
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short
-    t: '$0'
+    t: "$0"
   - key: options.yearly_salary.range_0_10.short
     t: $0k-$10k
   - key: options.yearly_salary.range_10_30.short
@@ -329,7 +329,7 @@ translations:
   - key: options.yearly_salary.range_100_200.short
     t: $100k-$200k
   - key: options.yearly_salary.range_more_than_200.short
-    t: '>$200k'
+    t: ">$200k"
 
   # job titles
   - key: options.job_title.front_end_developer
