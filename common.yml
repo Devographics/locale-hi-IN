@@ -585,7 +585,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: ब्लॉग और पत्रिकाएं
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: कौन से ब्लॉग/पत्रिकाएं/आदि। क्या आप पढ़ते हैं?
   - key: resources.blogs_news_magazines.others
     t: अन्य ब्लॉग और पत्रिकाएं
@@ -595,7 +595,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: साइटें और कोर्सेज
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: कौन सी साइट/कोर्सेज/etc. क्या आप परामर्श करते हैं?
   - key: resources.sites_courses.others
     t: अन्य साइटें और कोर्सेज
@@ -605,7 +605,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: पॉडकास्ट
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: आप कौन से प्रोग्रामिंग-संबंधित पॉडकास्ट सुनते हैं?
   - key: resources.podcasts.others
     t: अन्य पॉडकास्ट
