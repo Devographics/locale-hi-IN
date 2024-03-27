@@ -473,45 +473,45 @@ translations:
   # years of experience
   - key: user_info.years_of_experience
     t: वर्षों का अनुभव
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: आप इस क्षेत्र में कितने समय से काम कर रहे हैं या पढ़ रहे हैं।
 
   # company size
   - key: user_info.company_size
     t: कंपनी का साइज
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: आपकी कंपनी कितनी बड़ी है।
 
   # salary ranges
   - key: user_info.yearly_salary
     t: वार्षिक वेतन
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: अमरीकी डालर में।
 
   # job title
   - key: user_info.job_title
     t: नौकरी का नाम
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: आप पार्टियों में अपना परिचय कैसे देते हैं?
 
   # javascript proficiency
 
   - key: user_info.javascript_proficiency
     t: जावास्क्रिप्ट प्रवीणता
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: आप जावास्क्रिप्ट में कितने कुशल हैं?
 
   # css proficiency
 
   - key: user_info.css_proficiency
     t: सीएसएस (CSS) प्रवीणता
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: आप सीएसएस (CSS) में कितने कुशल हैं?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: बैक-एंड प्रवीणता
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: बैक-एंड डेवलपमेंट में आप कितने कुशल हैं?
 
   # gender
