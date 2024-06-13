@@ -535,7 +535,7 @@ translations:
 
   - key: tools_others.text_editors
     t: टेक्स्ट एडिटर्स
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: आप किस टेक्स्ट एडिटर्स का नियमित रूप से उपयोग करते हैं?
   - key: tools_others.text_editors.others
     t: अन्य टेक्स्ट एडिटर्स
@@ -544,7 +544,7 @@ translations:
 
   - key: tools_others.utilities
     t: यूटिलिटीज
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: आप किन यूटिलिटीज या टूल्स का नियमित रूप से उपयोग करते हैं?
   - key: tools_others.utilities.others
     t: अन्य यूटिलिटीज
@@ -553,7 +553,7 @@ translations:
 
   - key: tools_others.browsers
     t: ब्राउज़र्स
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: प्राइमरी वर्क के दौरान आप मुख्य रूप से किस ब्राउज़र में काम करते हैं?
   - key: tools_others.browsers.others
     t: अन्य ब्राउज़रों
@@ -562,7 +562,7 @@ translations:
 
   - key: tools_others.build_tools
     t: बिल्ड टूल्स
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: आप किस बिल्ड टूल्स का उपयोग करते हैं?
   - key: tools_others.build_tools.others
     t: अन्य बिल्ड टूल्स
@@ -571,7 +571,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: नॉन-जावास्क्रिप्ट लैंग्वेजेज
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: आप किन अन्य प्रोग्रामिंग लैंग्वेजेज का उपयोग करते हैं?
   - key: tools_others.non_js_languages.others
     t: अन्य लैंग्वेजेज
