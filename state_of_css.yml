@@ -265,17 +265,17 @@ translations:
 
   - key: environments.form_factors
     t: फ़ार्म के कारक
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: आप किन फॉर्म कारकों पर परीक्षण करते हैं?
 
   - key: environments.css_for_print
     t: प्रिंट के लिए CSS
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: क्या आप प्रिंट शैली लिखते हैं?
 
   - key: environments.css_for_email
     t: ईमेल ग्राहकों के लिए CSS
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: क्या आप ईमेल क्लाइंट के लिए CSS लिखते हैं?
 
   ###########################################################################
