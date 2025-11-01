@@ -6,110 +6,298 @@ translations:
 
   # homepage
   - key: general.why_create_account
-    t: मुझे अकाउंट बनाने की आवश्यकता क्यों है?
+    t: मुझे एक खाता बनाने की आवश्यकता क्यों है?
   - key: general.create_account_reasons
     t: >
-      हम आपको एक अकाउंट बनाने के लिए कहते हैं:
+      हम आपसे खाता बनाने के लिए इसलिए कहते हैं ताकि हम:
 
-      - डुप्लिकेट रेस्पॉन्सेस से बचें
+      - डुप्लिकेट प्रतिक्रियाओं से बच सकें
 
-      - आपको अपने डेटा तक पहुंच प्रदान करें
+      - आपको आपके डेटा तक पहुँच दे सकें
 
-      - जाते ही अपना सेशन सहेजें
+      - आपकी प्रगति को सहेज सकें
 
-      - परिणाम लाइव होने पर आपको सूचित करें
+      - जब परिणाम प्रकाशित हों, तो आपको सूचित कर सकें
   - key: general.survey_closed_detailed
     t: >
-      क्षमा करें, सर्वे अब बंद हो गया है! आप अभी भी अपने डेटा की समीक्षा कर सकते हैं लेकिन आप उसे बदल नहीं कर पाएंगे.
+      क्षमा करें, यह सर्वेक्षण अब बंद हो चुका है! आप अभी भी अपने डेटा को देख सकते हैं लेकिन उसे संशोधित नहीं कर पाएंगे।
   - key: general.survey_read_only
     t: >
-      आप वर्तमान में इस सर्वे को केवल-पढ़ने के लिए मोड में देख रहे हैं।
+      आप वर्तमान में इस सर्वेक्षण को केवल-पठन (read-only) मोड में देख रहे हैं।
+  - key: general.survey_preview
+    t: >
+      यह सर्वेक्षण **पूर्वावलोकन मोड (preview mode)** में है। इसके प्रश्न बदल सकते हैं, और अभी जो भी डेटा आप दर्ज करेंगे, वह सर्वेक्षण शुरू होने पर **हटा दिया जाएगा**।
+  - key: general.survey_feedback
+    t: प्रतिक्रिया दें
+
   - key: general.survey_read_only_back
     t: >
-      सेशन शुरू करने या फिर से शुरू करने के लिए मुख्य सर्वे पृष्ठ पर <a href="{link}">वापस जाएं</a>।
+      सत्र शुरू या फिर से जारी रखने के लिए <a href="{link}">मुख्य सर्वेक्षण पृष्ठ पर वापस जाएँ</a>।
+  - key: general.take_survey
+    t: {name} सर्वेक्षण में भाग लें
+
+  - key: options.na
+    t: 🚫 कोई नहीं
 
   # surveys
   - key: general.open_surveys
-    t: ओपन सर्वे
+    t: खुले सर्वेक्षण
   - key: general.no_open_surveys
-    t: वर्तमान में कोई सर्वेस खुला नहीं है।
+    t: वर्तमान में कोई भी सर्वेक्षण खुला नहीं है।
   - key: general.closed_surveys
-    t: बंद सर्वेस
+    t: बंद सर्वेक्षण
+  - key: general.no_closed_surveys
+    t: वर्तमान में कोई भी सर्वेक्षण बंद नहीं है।
+  - key: general.preview_surveys
+    t: पूर्वावलोकन सर्वेक्षण
+  - key: general.no_preview_surveys
+    t: पूर्वावलोकन के लिए कोई सर्वेक्षण उपलब्ध नहीं है।
   - key: general.start_survey
-    t: सर्वे शुरू करें »
+    t: सर्वेक्षण शुरू करें »
   - key: general.continue_survey
-    t: सर्वे जारी रखें »
+    t: सर्वेक्षण जारी रखें »
+  - key: general.completion
+    t: "{completion}% पूर्ण"
+  - key: general.started_on
+    t: प्रारंभ किया गया {createdAt} को
+  - key: general.last_modified_on
+    t: अंतिम संशोधित {updatedAt} को
   - key: general.review_survey
-    t: सर्वे की समीक्षा करें »
+    t: सर्वेक्षण की समीक्षा करें »
+  - key: general.review_answers
+    t: उत्तरों की समीक्षा करें »
   - key: general.preview_survey
-    t: सर्वे का पूर्वावलोकन करें »
+    t: सर्वेक्षण पूर्वावलोकन »
   - key: general.finish_survey
-    t: सर्वे समाप्त करें
+    t: सर्वेक्षण पूरा करें
+  - key: general.next_section
+    t: अगला खंड
+  - key: general.previous_section
+    t: पिछला खंड
   - key: general.survey_closed
-    t: यह सर्वे अब बंद हो गया है।
+    t: यह सर्वेक्षण अब बंद हो चुका है।
+  - key: general.survey_closed_on
+    t: यह सर्वेक्षण {endedAt} को बंद हुआ।
   - key: general.survey_results
-    t: सर्वे परिणाम देखें »
+    t: सर्वेक्षण परिणाम देखें »
+  - key: general.surveys_available_languages
+    t: "सर्वेक्षण उपलब्ध हैं इन भाषाओं में:"
+  - key: general.help_us_translate
+    t: सर्वेक्षणों के अनुवाद में हमारी मदद करें »
+  - key: general.translators
+    t: अनुवादक
+  - key: general.translation_help
+    t: अनुवाद सहायता
+  - key: general.newly_added
+    t: इस वर्ष सर्वेक्षण में नया जोड़ा गया
+  - key: general.new
+    t: नया
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> वह नया नाम है जो State of JavaScript, CSS, और GraphQL सर्वेक्षणों को चलाने वाली टीम के लिए उपयोग किया जा रहा है।
+
+  # credits
+  - key: credits.thanks
+    t: विशेष धन्यवाद
+  - key: credits.contributors
+    t: योगदानकर्ता
+  - key: credits.contributors.description
+    t: सर्वेक्षण डिज़ाइन में सहायता करने के लिए निम्न लोगों को विशेष धन्यवाद।
+  - key: credits.accessibility
+    t: अभिगम्यता परामर्श
+  - key: credits.survey_design
+    t: सर्वेक्षण डिज़ाइन
+  - key: credits.logo_design
+    t: लोगो डिज़ाइन
+  - key: credits.mobile_testing
+    t: मोबाइल परीक्षण
+  - key: credits.data_visualizations
+    t: डेटा विज़ुअलाइज़ेशन
+  - key: credits.repo_architecture
+    t: रिपॉजिटरी आर्किटेक्चर
+  - key: credits.code_refactoring
+    t: कोड रिफैक्टरिंग
+  - key: credits.data_processing
+    t: डेटा प्रोसेसिंग
+  - key: credits.back_end_development
+    t: बैक-एंड डेवलपमेंट
+  - key: credits.survey_review
+    t: सर्वेक्षण समीक्षा
+
+  # support
+  - key: general.support_from
+    t: सहयोग द्वारा समर्थित
 
   # footer
   - key: general.privacy_policy
-    t: प्राइवेसी पालिसी
+    t: गोपनीयता नीति
   - key: general.leave_issue
-    t: प्रशन? एक बग मिला? <a href="{link}" target="_blank">कोई समस्या छोड़ें</a>.
+    t: प्रश्न हैं? कोई बग मिला? <a href="{link}" target="_blank">समस्या रिपोर्ट करें</a>।
+  - key: general.leave_issue2
+    t: समस्या रिपोर्ट करें
+  - key: general.emoji_icons
+    t: इमोजी आइकन <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> द्वारा
 
   # navigation
   - key: general.table_of_contents
-    t: लेख-सूची
+    t: >
+      {sectionCount} खंड ({completion}% पूर्ण)
   - key: general.all_questions_optional
     t: >
-      नोट: सभी प्रश्न वैकल्पिक हैं, 100% पूर्णता तक पहुँचने की आवश्यकता नहीं है।
+      ध्यान दें: सभी प्रश्न वैकल्पिक हैं, 100% पूरा करना आवश्यक नहीं है।
   - key: general.data_is_saved
-    t: जब भी आप पिछले या अगले अनुभाग में नेविगेट करते हैं तो आपका डेटा सहेजा जाता है।
+    t: जब भी आप पिछले या अगले खंड पर जाते हैं, आपका डेटा सहेजा जाता है।
+  - key: general.close_nav
+    t: मेनू बंद करें
+  - key: general.open_nav
+    t: मेनू खोलें
+  - key: general.more_actions
+    t: अधिक क्रियाएँ
+  - key: general.skip_to_content
+    t: सीधे सामग्री पर जाएँ
 
   # thanks
   - key: general.back
-    t: वापस
+    t: वापस जाएँ
+  - key: general.back_to_survey
+    t: सर्वेक्षण पर वापस जाएँ
   - key: general.thanks
     t: >
-      सर्वे भरने के लिए धन्यवाद!
+      सर्वेक्षण भरने के लिए धन्यवाद! आपका डेटा सहेजा जा चुका है।
 
-      आपका डेटा सहेजा गया है। सर्वे बंद होने तक आप इसकी समीक्षा या बदल सकते हैं।
+      साथ ही, आप इस सर्वेक्षण को साझा करके हमारी पहुँच बढ़ाने में मदद कर सकते हैं। हर एक साझा मायने रखता है और इससे हमारा डेटा और अधिक प्रतिनिधिक बनेगा:
 
-      इसके अलावा, आप इस सर्वेक्षण को शेयर करके इस शब्द को बाहर निकालने में हमारी मदद कर सकते हैं। हर चीज मायने रखती है, और यह हमारे डेटा को समान बनाने में मदद करेगा अधिक प्रतिनिधि:
-  - key: thanks.learn_more_about
-    t: "कुछ फीचर्स के बारे में आप शायद अधिक जानना चाहें:"
-  - key: thanks.knowledge_score
-    t: ज्ञान (नॉलेज) स्कोर
-  - key: thanks.score_explanation
+  - key: general.thanks1
     t: >
-      आपने इनमें से <span class="score-number Score-number-ज्ञात">{known}</span> सुना या इस्तेमाल किया है
-      सर्वेक्षण में उल्लिखित <span class="score-number Score-number-total">{total}</span> विशेषताएं, जो
-      आपको शीर्ष पर रखता है <span class="score-number Score-number-ranking">{knowledgeRankingFromTop}%</span>
-      सभी उत्तरदाताओं का।
+      सर्वेक्षण भरने के लिए धन्यवाद! आपका डेटा सहेजा जा चुका है।
+  - key: general.thanks2
+    t: >
+      इस सर्वेक्षण को साझा करके हमें अधिक लोगों तक पहुँचने में मदद करें! हर साझा महत्वपूर्ण है और इससे हमारा डेटा और अधिक प्रतिनिधिक बनेगा।
+  - key: thanks.learn_more_about
+    t: "कुछ विशेषताएँ जिनके बारे में आप और जानना चाह सकते हैं:"
+  - key: thanks.knowledge_score
+    t: ज्ञान स्कोर
+  - key: thanks.features_score
+    t: विशेषता स्कोर
+  - key: thanks.quiz_score
+    t: क्विज़ स्कोर
+  - key: thanks.score_statistics
+    t: >
+      सर्वेक्षण में उल्लिखित {total} विशेषताओं में से,
+      आपने {usage_count} का उपयोग किया है और {awareness_count} के बारे में सुना है,
+      जिससे आप सभी प्रतिभागियों में शीर्ष {knowledgeRankingFromTop} में आते हैं।
+      बहुत बढ़िया!
+  - key: thanks.score_statistics_noranking
+    t: >
+      सर्वेक्षण में उल्लिखित {total} विशेषताओं में से,
+      आपने {usage_count} का उपयोग किया है और {awareness_count} के बारे में सुना है।
+      बहुत बढ़िया!
+  - key: thanks.points
+    t: >
+      अंक
+  - key: thanks.score_awareness_explanation
+    t: >
+      निष्पक्षता के लिए, यह प्रतिशत केवल उन {awareness_total} विशेषताओं पर आधारित है जिन्हें आप जानते हैं।
   - key: thanks.share_on_twitter
-    t: ट्विटर पर शेयर करें
+    t: ट्विटर पर साझा करें
   - key: thanks.share_score_message
     t: >
-      मुझे इस साल के #{hashtag} सर्वे में {score}% नॉलेज स्कोर मिला है! यहां सर्वे करें: {shareUrl}
+      मैंने इस वर्ष के #{hashtag} सर्वेक्षण में {score} अंकों का ज्ञान स्कोर प्राप्त किया!
+      मैंने {usage_count} विशेषताओं का उपयोग किया और {awareness_count} और को जाना,
+      जिससे मैं सभी प्रतिभागियों में शीर्ष {rank}% में हूँ।
+      क्या आप मेरा स्कोर हरा सकते हैं? {shareUrl}
+
+  # survey finish page
+
+  - key: finish.copy
+    t: कॉपी करें
+  - key: finish.copied
+    t: कॉपी हो गया!
+
+  - key: finish.goal_heading
+    t: सर्वेक्षण पूरा करने के लिए धन्यवाद! लेकिन हमें अभी भी आपकी मदद की ज़रूरत है…
+
+  - key: finish.goal_heading.description
+    t: इस वर्ष, हम कम से कम **{count} सर्वेक्षण प्रतिक्रियाएँ** प्राप्त करना चाहते हैं ताकि हमारा डेटा और भी प्रतिनिधिक बने और नए इनसाइट्स सामने आ सकें।
+
+  - key: finish.goal_currently
+    t: >
+      वर्तमान में:
+
+  - key: finish.goal_goal
+    t: >
+      लक्ष्य:
+
+  - key: finish.goal_responses
+    t: प्रतिक्रियाएँ
+
+  - key: finish.share_colleagues
+    t: 1. दोस्तों और सहकर्मियों के साथ साझा करें
+
+  - key: finish.share_colleagues.description
+    t: इसे Slack, Discord, Teams या जहाँ भी आपके डेवलपर मित्र हों, वहाँ साझा करें।
+
+  - key: finish.share_social
+    t: 2. सोशल मीडिया पर साझा करें
+
   # share
   - key: general.share_subject
     t: >
-      {surveyName} सर्वे
+      {surveyName} सर्वेक्षण
   - key: general.share_text
     t: >
-      इस साल का {surveyName} सर्वे अब शुरू हो गया है! {link}
+      अगर आपके पास एक मिनट है, तो {surveyName} सर्वेक्षण ज़रूर भरें! {link}
 
   # forms
   - key: forms.select_option
     t: विकल्प चुनें
+  - key: forms.clear_field
+    t: प्रश्न साफ़ करें
+  - key: forms.more_options
+    t: और विकल्प दिखाएँ…
+  - key: forms.less_options
+    t: कम विकल्प दिखाएँ
+
+  # partners & sponsors
+  - key: sponsors.with_support_from
+    t: विशेष सहयोग द्वारा समर्थित
+  - key: sponsors.our_partners
+    t: हमारे साझेदार
+  - key: sponsors.become_partner
+    t: साझेदार बनें
+
+  # 404
+  - key: notfound.title
+    t: 404 नहीं मिला
+  - key: notfound.description
+    t: क्षमा करें, हम वह सामग्री नहीं ढूँढ सके जिसे आप खोज रहे थे।
+
+  # other
+  - key: general.join_discord
+    t: हमारे साथ <a href="{link}">Discord</a> पर जुड़ें।
+  - key: general.translator_mode
+    t: ट्रांसलेटर मोड सक्षम करने के लिए option/alt दबाएँ।
+  - key: general.charts_nivo
+    t: चार्ट <a href="{link}">Nivo</a> से बनाए गए हैं।
+  - key: general.made_by_devographics
+    t: <a href="{link}">Devographics</a> द्वारा बनाया गया
+  - key: general.view_code_example
+    t: कोड उदाहरण देखें
+  - key: general.feature_code_example
+    t: "**{featureName}** कोड उदाहरण"
+  - key: general.code_example
+    t: कोड उदाहरण
+  - key: general.language_code
+    t: |
+      {language} कोड
 
   ###########################################################################
   # Nav
   ###########################################################################
 
   - key: nav.surveys
-    t: सर्वेस
+    t: सर्वेक्षण
   - key: nav.account
-    t: अकाउंट
+    t: खाता
 
   ###########################################################################
   # Sections
@@ -118,285 +306,567 @@ translations:
   - key: sections.user_info.title
     t: आपके बारे में
   - key: sections.user_info.description
-    t: आइए जानते हैं आप की असलियत।
+    t: चलिए, आपको थोड़ा बेहतर जानते हैं।
+
+  - key: sections.features.title
+    t: विशेषताएँ
+  - key: sections.features.description
+    t: सिंटैक्स, कीवर्ड, और अन्य भाषा विशेषताएँ।
 
   - key: sections.resources.title
-    t: साधन (रिसोर्सेज)
+    t: संसाधन
   - key: sections.resources.description
-    t: आप किन {topic} संसाधनों की सलाह लेते हैं?
+    t: आप किन संसाधनों का उपयोग करते हैं?
 
   - key: sections.opinions.title
-    t: राय
+    t: विचार
   - key: sections.opinions.description
-    t: आप {topic} की स्थिति के बारे में कैसा महसूस करते हैं?
+    t: चीज़ों की स्थिति के बारे में आपकी क्या राय है?
+
+  - key: opinions.opinions_intro
+    t: निम्नलिखित प्रश्नों के लिए, हमें बताइए कि आप प्रत्येक कथन से कितने सहमत हैं।
+    aliases:
+      - worldview.opinions_intro
 
   - key: sections.other_tools.title
-    t: अन्य टूल्स
-  - key: sections.other_tools.description
-    t: इन टूल्स और तकनीकों के लिए, बस उन उपकरणों की जाँच करें जिनका आप नियमित रूप से उपयोग करते हैं।
+    t: अन्य उपकरण
+
+  - key: sections.report.title
+    t: रुझान रिपोर्ट
+
+  - key: sections.usage.title
+    t: उपयोग
+
+  - key: sections.finish.title
+    t: सर्वेक्षण समाप्त करें
+
+  - key: sections.finish.description
+    t: सर्वेक्षण पूरा करें
 
   ###########################################################################
   # Options
   ###########################################################################
 
+  - key: options.experience.title
+    t: अनुभव
+
+  # other answer
+  - key: options.other
+    t: अन्य…
+  - key: options.other.placeholder
+    t: ऊपर उल्लेखित नहीं किए गए अन्य विकल्प, अल्पविराम से अलग करें
+
   # features
   - key: options.features.never_heard
-    t: 🤷 इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
+    t: <span aria-hidden="true">🤷</span> इसके बारे में कभी नहीं सुना/पक्का नहीं कि यह क्या है
   - key: options.features.heard
-    t: ✅ मुझे पता है कि यह क्या है, लेकिन इसका उपयोग नहीं किया है
+    t: <span aria-hidden="true">✅</span> जानते हैं क्या है, लेकिन उपयोग नहीं किया
   - key: options.features.used
-    t: 👍 मैंने इसका इस्तेमाल किया है
+    t: <span aria-hidden="true">👍</span> मैंने इसका उपयोग किया है
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">इसके बारे में कभी नहीं सुना/पक्का नहीं कि यह क्या है</span>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">सुना है</span> » <span class="option-chip option-positive">दिलचस्पी है</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">सुना है</span> » <span class="option-chip option-negative">दिलचस्पी नहीं है</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">उपयोग किया है</span> » <span class="option-chip option-positive">सकारात्मक अनुभव</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">उपयोग किया है</span> » <span class="option-chip option-negative">नकारात्मक अनुभव</span>
+
+  - key: options.features.na
+    t: कोई नहीं
+
+  # features (short)
+  - key: options.features.never_heard.short
+    t: कभी नहीं सुना
+  - key: options.features.heard.short
+    t: सुना है
+  - key: options.features.used.short
+    t: उपयोग किया है
+
+  - key: options.experience.never_heard
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard
+    aliasFor: options.features.heard.short
+  - key: options.experience.used
+    aliasFor: options.features.used.short
+
+  - key: options.experience.never_heard.short
+    aliasFor: options.features.never_heard.short
+  - key: options.experience.heard.short
+    aliasFor: options.features.heard.short
+  - key: options.experience.used.short
+    aliasFor: options.features.used.short
 
   # features (no emoji)
   - key: options.features.never_heard.label
-    t: इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
+    t: इसके बारे में कभी नहीं सुना / पक्का नहीं कि यह क्या है
   - key: options.features.heard.label
-    t: मुझे पता है कि यह क्या है, लेकिन इसका उपयोग नहीं किया है
+    t: जानते हैं क्या है, लेकिन इस्तेमाल नहीं किया
   - key: options.features.used.label
-    t: मैंने इसका इस्तेमाल किया है
+    t: इसका उपयोग किया है
 
-  # features (short versions)
-  - key: options.features.never_heard.short
-    t: मैंने इसके बारे में कभी नहीं सुना
-  - key: options.features.heard.short
-    t: इसके बारे में पता है
-  - key: options.features.used.short
-    t: इसका इस्तेमाल किया है
+  # features (no emoji, short versions)
+  - key: options.features.never_heard.label.short
+    t: कभी नहीं सुना
+  - key: options.features.heard.label.short
+    t: सुना है
+  - key: options.features.used.label.short
+    t: उपयोग किया है
+
+  # aliases
+  - key: options.experience.never_heard.label.short
+    aliasFor: options.features.never_heard.label.short
+  - key: options.experience.heard.label.short
+    aliasFor: options.features.heard.label.short
+  - key: options.experience.used.label.short
+    aliasFor: options.features.used.label.short
+
+  - key: options.experience.never_heard.description
+    t: वे उत्तरदाता जिन्होंने किसी वस्तु के बारे में कभी नहीं सुना है।
+  - key: options.experience.heard.description
+    t: वे उत्तरदाता जिन्होंने इसके बारे में सुना है लेकिन इसका उपयोग नहीं किया है।
+  - key: options.experience.used.description
+    t: वे उत्तरदाता जिन्होंने इसका उपयोग किया है।
+
+  # sentiments
+  - key: options.sentiment.title
+    t: भावना
+
+  - key: options.sentiment.positive.label
+    t: सकारात्मक भावना
+  - key: options.sentiment.neutral.label
+    t: तटस्थ भावना
+  - key: options.sentiment.negative.label
+    t: नकारात्मक भावना
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: सकारात्मक
+  - key: options.sentiment.neutral.label.short
+    t: तटस्थ
+  - key: options.sentiment.negative.label.short
+    t: नकारात्मक
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: वे उत्तरदाता जो किसी तकनीक के बारे में अधिक जानने में रुचि रखते हैं या दोबारा इसका उपयोग करना चाहेंगे।
+  - key: options.sentiment.neutral.description
+    t: वे उत्तरदाता जिन्होंने किसी तकनीक के बारे में कोई भावना नहीं दर्शाई।
+  - key: options.sentiment.negative.description
+    t: वे उत्तरदाता जो किसी तकनीक के बारे में और सीखने में रुचि नहीं रखते, या जिन्होंने इसका उपयोग किया और नकारात्मक अनुभव पाया।
+
+  # comments
+
+  - key: options.experience.comments
+    t: टिप्पणियाँ
+    aliases:
+      - options.sentiment.comments
 
   # patterns
   - key: options.patterns.use_never
-    t: लगभग हमेशा बचें
+    t: लगभग हमेशा बचता हूँ
   - key: options.patterns.use_sparingly
-    t: किफायत से इस्तेमाल करो
+    t: कम उपयोग करता हूँ
   - key: options.patterns.use_neutral
-    t: निष्पक्ष
+    t: तटस्थ
   - key: options.patterns.use_frequently
-    t: अक्सर प्रयोग करें
+    t: अक्सर उपयोग करता हूँ
   - key: options.patterns.use_always
-    t: जितना हो सके उतना प्रयोग करें
+    t: जितना हो सके उपयोग करता हूँ
 
   # tools experience
   - key: options.tools.never_heard
-    t: 🤷 इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
+    t: <span aria-hidden="true">🤷</span> इसके बारे में कभी नहीं सुना / पक्का नहीं कि यह क्या है
   - key: options.tools.interested
-    t: ✅ इसके बारे में सुना > सीखना चाहेंगे
+    t: <span aria-hidden="true">✅</span> सुना है > सीखना चाहूँगा
   - key: options.tools.not_interested
-    t: 🚫 इसके बारे में सुना > रुचि नहीं है
+    t: <span aria-hidden="true">🚫</span> सुना है > रुचि नहीं है
   - key: options.tools.would_use
-    t: 👍 इसका इस्तेमाल किया > फिर से इस्तेमाल करेंगे
+    t: <span aria-hidden="true">👍</span> उपयोग किया है > दोबारा उपयोग करना चाहूँगा
   - key: options.tools.would_not_use
-    t: 👎 इसका इस्तेमाल किया > दोबारा इस्तेमाल नहीं करेंगे
+    t: <span aria-hidden="true">👎</span> उपयोग किया है > दोबारा उपयोग नहीं करना चाहूँगा
 
   # tools experience (no emoji)
   - key: options.tools.never_heard.legend
-    t: इसके बारे में कभी नहीं सुना/सुनिश्चित नहीं है कि यह क्या है
+    t: इसके बारे में कभी नहीं सुना / पक्का नहीं कि यह क्या है
   - key: options.tools.interested.legend
-    t: इसके बारे में सुना > सीखना चाहेंगे
+    t: सुना है > सीखना चाहूँगा
   - key: options.tools.not_interested.legend
-    t: इसके बारे में सुना > रुचि नहीं है
+    t: सुना है > रुचि नहीं है
   - key: options.tools.would_use.legend
-    t: इसका इस्तेमाल किया > फिर से इस्तेमाल करेंगे
+    t: उपयोग किया है > दोबारा उपयोग करना चाहूँगा
   - key: options.tools.would_not_use.legend
-    t: इसका इस्तेमाल किया > दोबारा इस्तेमाल नहीं करेंगे
+    t: उपयोग किया है > दोबारा उपयोग नहीं करना चाहूँगा
 
   # tools experience (short versions)
   - key: options.tools.never_heard.short
     t: कभी नहीं सुना
   - key: options.tools.interested.short
-    t: इसमें दिलचस्पी है
+    t: रुचि है
   - key: options.tools.not_interested.short
-    t: इसमें रुचि नहीं है
+    t: रुचि नहीं है
   - key: options.tools.would_use.short
-    t: फिर से इस्तेमाल करेंगे
+    t: दोबारा उपयोग करना चाहूँगा
   - key: options.tools.would_not_use.short
-    t: उपयोग नहीं करेंगे
+    t: उपयोग नहीं करना चाहूँगा
 
   # happiness
   - key: options.happiness.0
-    t: बहुत खुश नहीं
+    t: बहुत असंतुष्ट
   - key: options.happiness.1
-    t: खुश नहीं
+    t: असंतुष्ट
   - key: options.happiness.2
-    t: निष्पक्ष
+    t: तटस्थ
   - key: options.happiness.3
-    t: खुश
+    t: संतुष्ट
   - key: options.happiness.4
-    t: बहुत खुश
+    t: बहुत संतुष्ट
+
+  # happiness (short version)
+  - key: options.happiness.0.short
+    t: बहुत असंतुष्ट
+  - key: options.happiness.1.short
+    t: असंतुष्ट
+  - key: options.happiness.2.short
+    t: तटस्थ
+  - key: options.happiness.3.short
+    t: संतुष्ट
+  - key: options.happiness.4.short
+    t: बहुत संतुष्ट
+
+  # slider
+  - key: options.slider.0.description
+    t: 0%
+  - key: options.slider.1.description
+    t: 12.5%
+  - key: options.slider.2.description
+    t: 25%
+  - key: options.slider.3.description
+    t: 37.5%
+  - key: options.slider.4.description
+    t: 50%
+  - key: options.slider.5.description
+    t: 62.5%
+  - key: options.slider.6.description
+    t: 75%
+  - key: options.slider.7.description
+    t: 87.5%
+  - key: options.slider.8.description
+    t: 100%
 
   # opinions
   - key: options.opinions.0
-    t: दृढ़ता से असहमत
+    t: बिल्कुल असहमत
   - key: options.opinions.1
     t: असहमत
   - key: options.opinions.2
-    t: निष्पक्ष
+    t: तटस्थ
   - key: options.opinions.3
-    t: सहमत होना
+    t: सहमत
   - key: options.opinions.4
-    t: दृढ़ता से सहमत
+    t: पूरी तरह सहमत
+
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 वर्ष या उससे कम आयु
+  - key: options.age.range_10_18
+    t: 11–18 वर्ष की आयु
+  - key: options.age.range_18_24
+    t: 19–24 वर्ष की आयु
+  - key: options.age.range_25_34
+    t: 25–34 वर्ष की आयु
+  - key: options.age.range_35_44
+    t: 35–44 वर्ष की आयु
+  - key: options.age.range_45_54
+    t: 45–54 वर्ष की आयु
+  - key: options.age.range_55_64
+    t: 55–64 वर्ष की आयु
+  - key: options.age.range_more_than_65
+    t: 65 वर्ष या उससे अधिक आयु
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<10"
+  - key: options.age.range_10_18.short
+    t: 11–18
+  - key: options.age.range_18_24.short
+    t: 19–24
+  - key: options.age.range_25_34.short
+    t: 25–34
+  - key: options.age.range_35_44.short
+    t: 35–44
+  - key: options.age.range_45_54.short
+    t: 45–54
+  - key: options.age.range_55_64.short
+    t: 55–64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
+
+  # age 2
+  - key: options.age.range_under_20
+    t: 19 वर्ष या उससे कम आयु
+  - key: options.age.range_20_29
+    t: 20–29 वर्ष की आयु
+  - key: options.age.range_30_39
+    t: 30–39 वर्ष की आयु
+  - key: options.age.range_40_49
+    t: 40–49 वर्ष की आयु
+  - key: options.age.range_50_59
+    t: 50–59 वर्ष की आयु
+  - key: options.age.range_over_60
+    t: 60 वर्ष या उससे अधिक आयु
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20–29
+  - key: options.age.range_30_39.short
+    t: 30–39
+  - key: options.age.range_40_49.short
+    t: 40–49
+  - key: options.age.range_50_59.short
+    t: 50–59
+  - key: options.age.range_over_60.short
+    t: ">60"
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
-    t: एक वर्ष से कम
+    t: एक वर्ष से कम अनुभव
   - key: options.years_of_experience.range_1_2
-    t: 1 से 2 साल
+    t: 1 से 2 वर्ष का अनुभव
   - key: options.years_of_experience.range_2_5
-    t: 2 से 5 साल
+    t: 3 से 5 वर्ष का अनुभव
   - key: options.years_of_experience.range_5_10
-    t: 5 से 10 साल
+    t: 6 से 10 वर्ष का अनुभव
   - key: options.years_of_experience.range_10_20
-    t: 10 से 20 वर्ष
+    t: 11 से 20 वर्ष का अनुभव
   - key: options.years_of_experience.range_more_than_20
-    t: 20 साल से अधिक
+    t: 20 वर्ष से अधिक अनुभव
 
   # years of experience (short versions)
   - key: options.years_of_experience.range_less_than_1.short
-    t: "<1"
+    t: "<1 वर्ष"
   - key: options.years_of_experience.range_1_2.short
-    t: 1-2
+    t: 1–2 वर्ष
   - key: options.years_of_experience.range_2_5.short
-    t: 2-5
+    t: 3–5 वर्ष
   - key: options.years_of_experience.range_5_10.short
-    t: 5-10
+    t: 6–10 वर्ष
   - key: options.years_of_experience.range_10_20.short
-    t: 10-20
+    t: 11–20 वर्ष
   - key: options.years_of_experience.range_more_than_20.short
-    t: ">20"
+    t: ">20 वर्ष"
+
+  # years of experience v2
+  - key: options.years_of_experience.range_under_1
+    t: एक वर्ष से कम अनुभव
+  - key: options.years_of_experience.range_1_3
+    t: 1 से 3 वर्ष का अनुभव
+  - key: options.years_of_experience.range_4_6
+    t: 4 से 6 वर्ष का अनुभव
+  - key: options.years_of_experience.range_7_9
+    t: 7 से 9 वर्ष का अनुभव
+  - key: options.years_of_experience.range_10_12
+    t: 10 से 12 वर्ष का अनुभव
+  - key: options.years_of_experience.range_13_15
+    t: 13 से 15 वर्ष का अनुभव
+  - key: options.years_of_experience.range_16_20
+    t: 16 से 20 वर्ष का अनुभव
+  - key: options.years_of_experience.range_over_20
+    t: 20 वर्ष से अधिक अनुभव
+
+  # years of experience v2 (short versions)
+  - key: options.years_of_experience.range_under_1.short
+    t: "<1 वर्ष"
+  - key: options.years_of_experience.range_1_3.short
+    t: 1–3 वर्ष
+  - key: options.years_of_experience.range_4_6.short
+    t: 4–6 वर्ष
+  - key: options.years_of_experience.range_7_9.short
+    t: 7–9 वर्ष
+  - key: options.years_of_experience.range_10_12.short
+    t: 10–12 वर्ष
+  - key: options.years_of_experience.range_13_15.short
+    t: 13–15 वर्ष
+  - key: options.years_of_experience.range_16_20.short
+    t: 16–20 वर्ष
+  - key: options.years_of_experience.range_over_20.short
+    t: ">20 वर्ष"
+
+  # years of experience v3
+  - key: options.years_of_experience.range_0_4
+    t: 0–4 वर्ष
+  - key: options.years_of_experience.range_5_9
+    t: 5–9 वर्ष
+  - key: options.years_of_experience.range_10_14
+    t: 10–14 वर्ष
+  - key: options.years_of_experience.range_15_19
+    t: 15–19 वर्ष
+  - key: options.years_of_experience.range_20_24
+    t: 20–24 वर्ष
+  - key: options.years_of_experience.range_25_29
+    t: 25–29 वर्ष
+  - key: options.years_of_experience.range_over_30
+    t: 30 वर्ष से अधिक अनुभव
+
+  # years of experience v3
+  - key: options.years.range_0_4
+    aliasFor: options.years_of_experience.range_0_4
+  - key: options.years.range_5_9
+    aliasFor: options.years_of_experience.range_5_9
+  - key: options.years.range_10_14
+    aliasFor: options.years_of_experience.range_10_14
+  - key: options.years.range_15_19
+    aliasFor: options.years_of_experience.range_15_19
+  - key: options.years.range_20_24
+    aliasFor: options.years_of_experience.range_20_24
+  - key: options.years.range_25_29
+    aliasFor: options.years_of_experience.range_25_29
+  - key: options.years.range_over_30
+    aliasFor: options.years_of_experience.range_over_30
 
   # company size
+  - key: options.company_size.na
+    t: 🚫 लागू नहीं
   - key: options.company_size.range_1
-    t: एक कर्मचारी (एम्प्लोयी)
+    t: सिर्फ मैं
   - key: options.company_size.range_1_5
-    t: 1 से 5 कर्मचारी (एम्प्लाइज)
+    t: 2 से 5 लोग
   - key: options.company_size.range_5_10
-    t: 5 से 10 कर्मचारी (एम्प्लाइज)
+    t: 6 से 10 लोग
   - key: options.company_size.range_10_20
-    t: 10 से 20 कर्मचारी (एम्प्लाइज)
+    t: 11 से 20 लोग
   - key: options.company_size.range_20_50
-    t: 20 से 50 कर्मचारी (एम्प्लाइज)
+    t: 21 से 50 लोग
   - key: options.company_size.range_50_100
-    t: 50 से 100 कर्मचारी (एम्प्लाइज)
+    t: 51 से 100 लोग
   - key: options.company_size.range_100_1000
-    t: 100 से 1000 कर्मचारी (एम्प्लाइज)
+    t: 101 से 1000 लोग
   - key: options.company_size.range_more_than_1000
-    t: 1000 से अधिक कर्मचारी (एम्प्लाइज)
+    t: 1000 से अधिक लोग
 
   # company size (short versions)
+  - key: options.company_size.na.short
+    t: लागू नहीं
   - key: options.company_size.range_1.short
-    t: 1
+    t: "1"
   - key: options.company_size.range_1_5.short
-    t: 1-5
+    t: 2–5
   - key: options.company_size.range_5_10.short
-    t: 5-10
+    t: 6–10
   - key: options.company_size.range_10_20.short
-    t: 10-20
+    t: 11–20
   - key: options.company_size.range_20_50.short
-    t: 20-50
+    t: 21–50
   - key: options.company_size.range_50_100.short
-    t: 50-100
+    t: 51–100
   - key: options.company_size.range_100_1000.short
-    t: 100-1000
+    t: 101–1000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1000"
+    t: "1000+"
 
   # salary
+  - key: options.yearly_salary.na
+    t: 🚫 लागू नहीं
   - key: options.yearly_salary.range_work_for_free
-    t: मैं मुफ्त में काम करता हूं
+    t: मैं नि:शुल्क काम करता/करती हूँ
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: $0k–$10k
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: $10k–$30k
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: $30k–$50k
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: $50k–$100k
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: $100k–$200k
   - key: options.yearly_salary.range_more_than_200
     t: $200k से अधिक
 
+  - key: options.yearly_salary.range_0_20
+    t: $0k–$20k
+  - key: options.yearly_salary.range_20_40
+    t: $20k–$40k
+  - key: options.yearly_salary.range_40_60
+    t: $40k–$60k
+  - key: options.yearly_salary.range_60_80
+    t: $60k–$80k
+  - key: options.yearly_salary.range_80_100
+    t: $80k–$100k
+  - key: options.yearly_salary.range_100_150
+    t: $100k–$150k
+  - key: options.yearly_salary.range_150_200
+    t: $150k–$200k
+
   # salary (short versions)
+  - key: options.yearly_salary.na.short
+    t: लागू नहीं
   - key: options.yearly_salary.range_work_for_free.short
-    t: "$0"
+    t: $0
   - key: options.yearly_salary.range_0_10.short
-    t: $0k-$10k
+    t: $0–$10k
   - key: options.yearly_salary.range_10_30.short
-    t: $10k-$30k
+    t: $10k–$30k
   - key: options.yearly_salary.range_30_50.short
-    t: $30k-$50k
+    t: $30k–$50k
   - key: options.yearly_salary.range_50_100.short
-    t: $50k-$100k
+    t: $50k–$100k
   - key: options.yearly_salary.range_100_200.short
-    t: $100k-$200k
+    t: $100k–$200k
   - key: options.yearly_salary.range_more_than_200.short
     t: ">$200k"
 
-  # job titles
-  - key: options.job_title.front_end_developer
-    t: फ्रंट एंड डेवलपर/इंजीनियर
-  - key: options.job_title.back_end_developer
-    t: बैक एंड डेवलपर/इंजीनियर
-  - key: options.job_title.full_stack_developer
-    t: फुल स्टैक डेवलपर/इंजीनियर
-  - key: options.job_title.web_developer
-    t: वेब डेवलपर
-  - key: options.job_title.web_designer
-    t: वेब डिजाइनर
-  - key: options.job_title.ux_designer
-    t: एक्स (UX) डिजाइनर
-  - key: options.job_title.ui_designer
-    t: यूआई (UI) डिजाइनर
-  - key: options.job_title.back_end_dev
-    t: बैक-एंड डेवलपर/इंजीनियर
-
-  # JavaScript proficiency
-
-  - key: options.javascript_proficiency.0
-    t: कोई जावास्क्रिप्ट लिखने में सक्षम नहीं
-  - key: options.javascript_proficiency.1
-    t: संक्षिप्त, सरल जावास्क्रिप्ट या jQuery कथन लिखना
-  - key: options.javascript_proficiency.2
-    t: आधुनिक फ्रेमवर्क (React, Vue, etc.) का उपयोग करते हुए मौजूदा फ्रंट-एंड कोडबेस पर काम करना
-  - key: options.javascript_proficiency.3
-    t: स्क्रैच से पूरे फ्रंट-एंड कोडबेस को आर्किटेक्चर करना
-  - key: options.javascript_proficiency.4
-    t: उन्नत फ्रंट-एंड पैटर्न (स्टेट मैनेजमेंट , डेटा लोडिंग,etc.) को संभालना
-
-  # CSS proficiency
-
-  - key: options.css_proficiency.0
-    t: वस्तुतः CSS का कोई ज्ञान नहीं
-  - key: options.css_proficiency.1
-    t: CSS फ्रेमवर्क का उपयोग करना और मौजूदा शैलियों में बदलाव करना
-  - key: options.css_proficiency.2
-    t: विशिष्टता नियमों को जानना, लेआउट बनाने में सक्षम होना
-  - key: options.css_proficiency.3
-    t: एनिमेशन, इंटरैक्शन, ट्रांज़िशन,etc में महारत हासिल करना।
-  - key: options.css_proficiency.4
-    t: एक सुसंगत कार्यप्रणाली का पालन करते हुए खरोंच से पूरे फ्रंट-एंड को स्टाइल करने में सक्षम
-
-  # Back-end proficiency
-
-  - key: options.backend_proficiency.0
-    t: किसी भी बैक-एंड कार्य को संभालने में सक्षम नहीं
-  - key: options.backend_proficiency.1
-    t: ऑल-इन-वन सीएमएस (वर्डप्रेस,etc.) या स्टैटिक साइट जनरेटर स्थापित करने में सक्षम (जेकिल्ल, etc.)
-  - key: options.backend_proficiency.2
-    t: पहले से मौजूद फ़्रेमवर्क्स (रेल्स, लारवेल, etc.) का उपयोग करके ऐप्स बनाना करने में सक्षम
-  - key: options.backend_proficiency.3
-    t: स्क्रैच से संपूर्ण बैक-एंड सेट करना (गो, नोड.JS, etc.)
-  - key: options.backend_proficiency.4
-    t: जटिल मल्टी-सर्वर या माइक्रोसर्विस आर्किटेक्चर को संभालने में सक्षम
-
   # Proficiency (generic versions)
   - key: options.proficiency.0
-    t: कोई भी नहीं
+    t: कोई नहीं
   - key: options.proficiency.1
-    t: नौसिखिया
+    t: प्रारंभिक
   - key: options.proficiency.2
     t: मध्यम
   - key: options.proficiency.3
-    t: विकसित
+    t: उन्नत
   - key: options.proficiency.4
     t: विशेषज्ञ
 
@@ -405,44 +875,187 @@ translations:
   - key: options.gender.female
     t: महिला
   - key: options.gender.male
-    t: नर
+    t: पुरुष
   - key: options.gender.non_binary
-    t: नॉन-बाइनरी /तीसरा लिंग
+    t: नॉन-बाइनरी या जेंडर नॉन-कनफॉर्मिंग
+  - key: options.gender.questioning
+    t: अपनी पहचान खोज रहे हैं
   - key: options.gender.prefer_not_to_say
-    t: चुप रहना पसंद करूंगा
+    t: बताना नहीं चाहता/चाहती
+  - key: options.gender.not_listed
+    t: सूची में नहीं है
+
+  # Gender (short)
+
+  - key: options.gender.female.short
+    t: महिला
+  - key: options.gender.male.short
+    t: पुरुष
+  - key: options.gender.non_binary.short
+    t: नॉन-बाइनरी / GNC
+  - key: options.gender.questioning.short
+    t: खोज रहे हैं
+  - key: options.gender.prefer_not_to_say.short
+    t: नहीं बताना चाहता/चाहती
+  - key: options.gender.not_listed.short
+    t: सूची में नहीं
 
   # Race & Ethnicity
 
   - key: options.race_ethnicity.white_european
-    t: सफेद या यूरोपीय मूल का
+    t: श्वेत / कोकेशियन
   - key: options.race_ethnicity.south_asian
     t: दक्षिण एशियाई
+  - key: options.race_ethnicity.south_east_asian
+    t: दक्षिण-पूर्व एशियाई
   - key: options.race_ethnicity.hispanic_latin
-    t: हिस्पैनिक या लातीनी/लैटिना
+    t: हिस्पैनिक या लैटिन
   - key: options.race_ethnicity.east_asian
-    t: पूर्व एशियाई
+    t: पूर्वी एशियाई
   - key: options.race_ethnicity.middle_eastern
-    t: मिडिल ईस्टर्न
+    t: मध्य-पूर्वी
   - key: options.race_ethnicity.black_african
-    t: काला या अफ्रीकी मूल का
+    t: अश्वेत या अफ्रीकी मूल के
   - key: options.race_ethnicity.multiracial
-    t: मुलतिरसल
+    t: बहु-नस्लीय / बहु-जातीय
   - key: options.race_ethnicity.biracial
-    t: बै-रेसियल
+    t: द्वि-नस्लीय
   - key: options.race_ethnicity.native_american_islander_australian
-    t: मूल अमेरिकी, प्रशांत द्वीप वासी, या स्वदेशी ऑस्ट्रेलियाई
+    t: मूल अमेरिकी, प्रशांत द्वीपवासी या स्वदेशी ऑस्ट्रेलियाई
+  - key: options.race_ethnicity.not_listed
+    t: सूची में नहीं है
+
+  - key: options.race_ethnicity.european
+    t: यूरोपीय
+  - key: options.race_ethnicity.indian
+    t: भारतीय
+  - key: options.race_ethnicity.human
+    t: मानव
+  - key: options.race_ethnicity.slav
+    t: स्लाव
+  - key: options.race_ethnicity.north_african
+    t: उत्तर अफ्रीकी
+  - key: options.race_ethnicity.jewish
+    t: यहूदी
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: श्वेत
+  - key: options.race_ethnicity.south_asian.short
+    t: दक्षिण एशियाई
+  - key: options.race_ethnicity.south_east_asian.short
+    t: द. पू. एशियाई
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: हिस्पैनिक/लैटिन
+  - key: options.race_ethnicity.east_asian.short
+    t: पूर्वी एशियाई
+  - key: options.race_ethnicity.middle_eastern.short
+    t: मध्य-पूर्वी
+  - key: options.race_ethnicity.black_african.short
+    t: अश्वेत/अफ्रीकी मूल
+  - key: options.race_ethnicity.multiracial.short
+    t: बहु-नस्लीय
+  - key: options.race_ethnicity.biracial.short
+    t: द्वि-नस्लीय
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: मूल अमेरी./प्रशांत द्वी./स्वदेशी ऑस्ट्र.
+  - key: options.race_ethnicity.not_listed.short
+    t: सूची में नहीं
+
+  # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 कोई नहीं
+  - key: options.disability_status.visual_impairments
+    t: दृष्टि संबंधी अक्षमताएँ
+  - key: options.disability_status.visual_impairments.description
+    t: अंधत्व, रंग-अंधत्व आदि
+  - key: options.disability_status.hearing_impairments
+    t: श्रवण अक्षमताएँ
+  - key: options.disability_status.hearing_impairments.description
+    t: बहरापन, टिनिटस आदि
+  - key: options.disability_status.mobility_impairments
+    t: गतिशीलता से जुड़ी अक्षमताएँ
+  - key: options.disability_status.mobility_impairments.description
+    t: गठिया, कर्पल टनल सिंड्रोम आदि
+  - key: options.disability_status.cognitive_impairments
+    t: संज्ञानात्मक अक्षमताएँ
+  - key: options.disability_status.cognitive_impairments.description
+    t: चिंता, डिस्लेक्सिया, ADHD आदि
+
+  - key: options.disability_status.neurodivergent_conditions
+    t: न्यूरोडायवर्जेंट स्थितियाँ
+  - key: options.disability_status.neurodivergent_conditions.description
+    t: ADHD, ऑटिज़्म स्पेक्ट्रम डिसऑर्डर, डिस्लेक्सिया आदि
+
+  - key: options.disability_status.mental_health_conditions
+    t: मानसिक स्वास्थ्य स्थितियाँ
+  - key: options.disability_status.mental_health_conditions.description
+    t: चिंता, अवसाद, PTSD आदि
+
+  - key: options.disability_status.chronic_illnesses
+    t: दीर्घकालिक बीमारियाँ
+  - key: options.disability_status.chronic_illnesses.description
+    t: मधुमेह, ऑटोइम्यून विकार आदि
+
+  - key: options.disability_status.not_listed
+    t: >
+      सूची में नहीं है
+
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments.short
+    t: >
+      दृष्टि संबंधी अक्षमताएँ
+  - key: options.disability_status.hearing_impairments.short
+    t: >
+      श्रवण अक्षमताएँ
+  - key: options.disability_status.mobility_impairments.short
+    t: >
+      गतिशीलता अक्षमताएँ
+  - key: options.disability_status.cognitive_impairments.short
+    t: >
+      संज्ञानात्मक अक्षमताएँ
+  - key: options.disability_status.not_listed.short
+    t: >
+      सूची में नहीं
+
+  # employment status
+
+  - id: career.job_status
+    t: रोजगार की स्थिति
+  - id: career.job_status.question
+    t: निम्नलिखित में से कौन-सा विकल्प आपकी वर्तमान रोजगार स्थिति को सबसे अच्छी तरह दर्शाता है?
+
+  - id: options.job_status.employed_full_time
+    t: पूर्णकालिक रूप से नियोजित
+  - id: options.job_status.freelance
+    t: स्वतंत्र ठेकेदार, फ्रीलांसर या स्व-नियोजित
+  - id: options.job_status.employed_part_time
+    t: अंशकालिक रूप से नियोजित
+  - id: options.job_status.student_full_time
+    t: पूर्णकालिक छात्र
+  - id: options.job_status.student_part_time
+    t: अंशकालिक छात्र
+  - id: options.job_status.looking_for_job
+    t: बेरोजगार, लेकिन काम की तलाश में
+  - id: options.job_status.not_employed_not_looking
+    t: बेरोजगार और काम की तलाश में नहीं
+  - id: options.job_status.retired
+    t: सेवानिवृत्त
 
   # Form Factors
   - key: options.form_factors.desktop
     t: डेस्कटॉप
+  - key: options.form_factors.keyboard_only
+    t: केवल कीबोर्ड वाला डेस्कटॉप
   - key: options.form_factors.smartphone
-    t: स्मार्टफोन
-  - key: options.form_factors.featureप्रिंट_phone
-    t: फीचर फोन
+    t: स्मार्टफ़ोन
+  - key: options.form_factors.feature_phone
+    t: फीचर फ़ोन
   - key: options.form_factors.tablet
-    t: टेबलेट
+    t: टैबलेट
   - key: options.form_factors.smart_watch
-    t: स्मार्टवाच
+    t: स्मार्टवॉच
   - key: options.form_factors.tv
     t: टीवी
   - key: options.form_factors.gaming_console
@@ -451,6 +1064,510 @@ translations:
     t: स्क्रीन रीडर
   - key: options.form_factors.print
     t: प्रिंट
+  - key: options.form_factors.testing_tools
+    t: परीक्षण उपकरण (Axe, Lighthouse आदि)
+  - key: options.form_factors.vision_simulator
+    t: दृष्टि परिवर्तक सिम्युलेटर (रंग-अंधत्व आदि)
+  - key: options.form_factors.pdf_export
+    t: PDF निर्यात
+
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: ई-कॉमर्स और खुदरा
+  - key: options.industry_sector.news_media
+    t: समाचार, मीडिया और ब्लॉगिंग
+  - key: options.industry_sector.healthcare
+    t: स्वास्थ्य सेवा
+    aliases:
+      - options.industry_sector.health_care
+  - key: options.industry_sector.finance
+    t: वित्त
+  - key: options.industry_sector.programming_tools
+    t: प्रोग्रामिंग और तकनीकी उपकरण
+  - key: options.industry_sector.socialmedia
+    t: सोशल मीडिया
+  - key: options.industry_sector.marketing_tools
+    t: मार्केटिंग/सेल्स/एनालिटिक्स उपकरण
+  - key: options.industry_sector.education
+    t: शिक्षा
+  - key: options.industry_sector.real_estate
+    t: रियल एस्टेट
+  - key: options.industry_sector.government
+    t: सरकार
+  - key: options.industry_sector.entertainment
+    t: मनोरंजन
+  - key: options.industry_sector.consulting
+    t: परामर्श और सेवाएँ
+  - key: options.industry_sector.travel
+    t: यात्रा
+  - key: options.industry_sector.tourism
+    t: पर्यटन
+  - key: options.industry_sector.insurance
+    t: बीमा
+  - key: options.industry_sector.logistics
+    t: रसद (लॉजिस्टिक्स)
+  - key: options.industry_sector.energy
+    t: ऊर्जा
+  - key: options.industry_sector.telecommunications
+    t: दूरसंचार
+  - key: options.industry_sector.student
+    t: छात्र
+  - key: options.industry_sector.hospitality
+    t: आतिथ्य
+  - key: options.industry_sector.cyber_security
+    t: साइबर सुरक्षा
+  - key: options.industry_sector.construction
+    t: निर्माण
+  - key: options.industry_sector.automotive
+    t: ऑटोमोटिव
+  - key: options.industry_sector.agriculture
+    t: कृषि
+  - key: options.industry_sector.transport
+    t: परिवहन
+    aliases:
+      - options.industry_sector.transportation
+  - key: options.industry_sector.manufacturing
+    t: विनिर्माण
+
+  - key: options.industry_sector.tech_it
+    t: प्रौद्योगिकी और आईटी
+  - key: options.industry_sector.human_resources
+    t: मानव संसाधन
+  - key: options.industry_sector.sports
+    t: खेल
+  - key: options.industry_sector.gaming
+    t: गेमिंग
+  - key: options.industry_sector.research
+    t: अनुसंधान और विज्ञान
+    aliases:
+      - options.industry_sector.science
+  - key: options.industry_sector.law
+    t: विधि (कानून)
+  - key: options.industry_sector.non_profit
+    t: गैर-लाभकारी
+  - key: options.industry_sector.art
+    t: कला
+  - key: options.industry_sector.crypto
+    t: ब्लॉकचेन/क्रिप्टोकरेंसी
+  - key: options.industry_sector.aerospace
+    t: एयरोस्पेस
+  - key: options.industry_sector.web3
+    t: वेब3
+  - key: options.industry_sector.iot
+    t: इंटरनेट ऑफ थिंग्स (IoT)
+  - key: options.industry_sector.gambling
+    t: जुआ
+  - key: options.industry_sector.blockchain
+    t: ब्लॉकचेन
+  - key: options.industry_sector.design
+    t: डिज़ाइन
+  - key: options.industry_sector.unemployed
+    t: बेरोजगार
+
+  - key: options.industry_sector.recruiting
+    t: भर्ती
+  - key: options.industry_sector.agency
+    t: एजेंसी
+  - key: options.industry_sector.business
+    t: व्यापार
+  - key: options.industry_sector.communication
+    t: संचार
+  - key: options.industry_sector.security
+    t: सुरक्षा
+
+  - key: options.industry_sector.ai
+    t: कृत्रिम बुद्धिमत्ता (AI)
+  - key: options.industry_sector.advertising
+    t: विज्ञापन
+  - key: options.industry_sector.cloud_computing
+    t: क्लाउड कंप्यूटिंग
+  - key: options.industry_sector.consumer_electronics
+    t: उपभोक्ता इलेक्ट्रॉनिक्स
+  - key: options.industry_sector.food
+    t: खाद्य उद्योग
+  - key: options.industry_sector.hospitality_tourism
+    t: आतिथ्य / पर्यटन
+  - key: options.industry_sector.fashion
+    t: फैशन
+  - key: options.industry_sector.robotics
+    t: रोबोटिक्स
+  - key: options.industry_sector.saas
+    t: SaaS (सॉफ्टवेयर ऐज़ ए सर्विस)
+  - key: options.industry_sector.automation
+    t: स्वचालन
+  - key: options.industry_sector.industrial
+    t: औद्योगिक
+  - key: options.industry_sector.music
+    t: संगीत
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: दस्तावेज़ीकरण
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: क्या इसे सीखना आसान है और/या क्या यह अच्छी तरह से दस्तावेज़ीकृत है?
+  - key: options.tool_evaluation.momentum_popularity
+    t: प्रचार और गति
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: क्या यह वर्तमान में बहुत चर्चा में है?
+  - key: options.tool_evaluation.user_base_size
+    t: उपयोगकर्ता आधार का आकार
+  - key: options.tool_evaluation.user_base_size.description
+    t: क्या यह लंबे अनुभव के साथ एक स्थापित विकल्प है?
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: डेवलपर अनुभव
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: क्या इसमें अच्छे डेवलपर टूल्स, बड़ा प्लगइन इकोसिस्टम आदि शामिल हैं?
+  - key: options.tool_evaluation.performance_user_experience
+    t: उपयोगकर्ता अनुभव
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: क्या यह आपको सहज और प्रदर्शनकारी यूज़र अनुभव बनाने में मदद करता है?
+  - key: options.tool_evaluation.creator_team
+    t: निर्माता और टीम
+  - key: options.tool_evaluation.creator_team.description
+    t: क्या यह किसी प्रसिद्ध, वित्तपोषित या अनुभवी टीम द्वारा समर्थित है?
+  - key: options.tool_evaluation.accessibility_features
+    t: अभिगम्यता विशेषताएँ
+  - key: options.tool_evaluation.accessibility_features.description
+    t: क्या यह सभी उपयोगकर्ताओं के लिए सुलभ अनुभव प्रदान करने में सक्षम है?
+  - key: options.tool_evaluation.community_inclusivity
+    t: समुदाय और समावेशिता
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: क्या इसके आसपास एक स्वागतपूर्ण और सक्रिय समुदाय है?
+
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: कीबोर्ड नेविगेशन
+  - key: options.accessibility_features.compliant_contrast
+    t: WCAG-अनुरूप कंट्रास्ट
+  - key: options.accessibility_features.focus_indicators
+    t: फोकस संकेतक
+  - key: options.accessibility_features.skip_to_content_link
+    t: कंटेंट पर जाने का लिंक
+  - key: options.accessibility_features.color_themes
+    t: रंग थीम (डार्क मोड, हाई-कॉन्ट्रास्ट मोड आदि)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: कम गति पसंद करता है
+  - key: options.accessibility_features.alt_text
+    t: Alt टेक्स्ट
+  - key: options.accessibility_features.semantic_markup
+    t: सैमांटिक मार्कअप
+  - key: options.accessibility_features.aria_attributes
+    t: ARIA HTML विशेषताएँ
+
+  # learning methods
+  - key: options.first_steps.na
+    t: 🚫 कोई नहीं
+  - key: options.first_steps.books
+    t: किताबें
+  - key: options.first_steps.videos
+    t: वीडियो और स्क्रीनकास्ट
+  - key: options.first_steps.school
+    t: स्कूल और उच्च शिक्षा
+  - key: options.first_steps.courses_free
+    t: ऑनलाइन कोर्स (मुफ़्त)
+  - key: options.first_steps.courses_paid
+    t: ऑनलाइन कोर्स (भुगतान किए गए)
+  - key: options.first_steps.podcasts
+    t: पॉडकास्ट
+  - key: options.first_steps.bootcamp
+    t: कोडिंग बूटकैंप
+  - key: options.first_steps.on_the_job
+    t: नौकरी पर प्रशिक्षण
+  - key: options.first_steps.self_directed
+    t: स्व-निर्देशित अध्ययन (Google, Stack Overflow आदि)
+  - key: options.first_steps.mentoring
+    t: मार्गदर्शन (मेंटोरिंग)
+
+  - key: options.first_steps.documentation
+    t: दस्तावेज़ीकरण
+  - key: options.first_steps.blogs
+    t: ब्लॉग
+  - key: options.first_steps.view_source
+    t: सोर्स देखें
+  - key: options.first_steps.trial_and_error
+    t: परीक्षण और त्रुटि
+  - key: options.first_steps.forums
+    t: मंच (फोरम)
+  - key: options.first_steps.newsletters
+    t: समाचार पत्र (न्यूज़लेटर्स)
+  - key: options.first_steps.events
+    t: आयोजन (इवेंट्स)
+
+  # web_platform_resources
+
+  - key: resources.web_platform_resources
+    t: वेब प्लेटफ़ॉर्म संसाधन
+    aliases:
+      - other_tools.web_platform_resources
+  - key: resources.web_platform_resources.question
+    t: आप वेब प्लेटफ़ॉर्म की विशेषताओं के बारे में जानकारी रखने के लिए किन संसाधनों का उपयोग करते हैं?
+    aliases:
+      - other_tools.web_platform_resources.question
+
+  # learning methods
+
+  - key: resources.learning_methods
+    t: अध्ययन के तरीके
+
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
+
+  - key: options.learning_methods.ai_tools
+    t: AI उपकरण (ChatGPT, Claude आदि)
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: नहीं
+  - key: options.higher_education_degree.yes_related
+    t: हाँ, मेरे वर्तमान पेशे से संबंधित क्षेत्र में
+  - key: options.higher_education_degree.yes_unrelated
+    t: हाँ, लेकिन मेरे पेशे से असंबंधित क्षेत्र में
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: नहीं
+  - key: options.higher_education_degree.yes_related.short
+    t: हाँ, संबंधित क्षेत्र
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: हाँ, असंबंधित क्षेत्र
+
+  # employment_status
+
+  - key: user_info.employment_status
+    t: रोजगार की स्थिति
+  - key: user_info.employment_status.question
+    t: आपकी वर्तमान रोजगार स्थिति क्या है?
+
+  - key: options.employment_status.employed_full_time
+    t: पूर्णकालिक रूप से नियोजित
+  - key: options.employment_status.freelance
+    t: स्वतंत्र ठेकेदार, फ्रीलांसर या स्व-नियोजित
+  - key: options.employment_status.employed_part_time
+    t: अंशकालिक रूप से नियोजित
+  - key: options.employment_status.student_full_time
+    t: पूर्णकालिक छात्र
+  - key: options.employment_status.student_part_time
+    t: अंशकालिक छात्र
+  - key: options.employment_status.looking_for_job
+    t: बेरोजगार, लेकिन काम की तलाश में
+  - key: options.employment_status.not_employed_not_looking
+    t: बेरोजगार और काम की तलाश में नहीं
+
+  - key: options.employment_status.full_time
+    t: पूर्णकालिक
+  - key: options.employment_status.student
+    t: छात्र
+  - key: options.employment_status.self_employed
+    t: स्व-नियोजित
+  - key: options.employment_status.contractor
+    t: ठेकेदार
+  - key: options.employment_status.part_time
+    t: अंशकालिक
+  - key: options.employment_status.between_jobs
+    t: नौकरियों के बीच
+  - key: options.employment_status.retired
+    t: सेवानिवृत्त
+
+  - key: options.employment_status.company_employee
+    t: कंपनी कर्मचारी
+  - key: options.employment_status.unemployed
+    t: बेरोजगार
+  - key: options.employment_status.ceo_founder
+    t: सीईओ/संस्थापक/उद्यमी
+
+  - key: options.employment_status.freelance.short
+    t: फ्रीलांसर / स्व-नियोजित
+  - key: options.employment_status.professor
+    t: प्रोफ़ेसर
+
+  # bracket
+  - key: options.bracket.round1
+    t: राउंड 1 जीत
+  - key: options.bracket.round2
+    t: राउंड 2 जीत
+  - key: options.bracket.round3
+    t: राउंड 3 जीत
+  - key: options.bracket.combined
+    t: संयुक्त
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: हाँ, जब सर्वेक्षण के परिणाम प्रकाशित हों तो मुझे ईमेल करें
+
+  # usage type
+
+  - key: usage.usage_type
+    t: उपयोग का प्रकार
+
+  - key: options.usage_type.professionally
+    t: पेशेवर रूप से
+  - key: options.usage_type.student
+    t: छात्र के रूप में
+  - key: options.usage_type.hobby
+    t: शौक के रूप में
+
+  - key: options.percentage_segments.range_0_10
+    t: 0–10%
+  - key: options.percentage_segments.range_11_20
+    t: 11–20%
+  - key: options.percentage_segments.range_21_30
+    t: 21–30%
+  - key: options.percentage_segments.range_31_40
+    t: 31–40%
+  - key: options.percentage_segments.range_41_50
+    t: 41–50%
+  - key: options.percentage_segments.range_51_60
+    t: 51–60%
+  - key: options.percentage_segments.range_61_70
+    t: 61–70%
+  - key: options.percentage_segments.range_71_80
+    t: 71–80%
+  - key: options.percentage_segments.range_81_90
+    t: 81–90%
+  - key: options.percentage_segments.range_91_100
+    t: 91–100%
+
+  # - key: options.percentage_segments.range_0_10
+  #   t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10–20%
+  - key: options.percentage_segments.range_20_30
+    t: 20–30%
+  - key: options.percentage_segments.range_30_40
+    t: 30–40%
+  - key: options.percentage_segments.range_40_50
+    t: 40–50%
+  - key: options.percentage_segments.range_50_60
+    t: 50–60%
+  - key: options.percentage_segments.range_60_70
+    t: 60–70%
+  - key: options.percentage_segments.range_70_80
+    t: 70–80%
+  - key: options.percentage_segments.range_80_90
+    t: 80–90%
+  - key: options.percentage_segments.range_90_100
+    t: 90–100%
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.completion_stats.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.completion_stats.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.completion_stats.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.completion_stats.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.completion_stats.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.completion_stats.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.completion_stats.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.completion_stats.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
+
+  - key: options.knowledge_score.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.knowledge_score.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.knowledge_score.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.knowledge_score.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.knowledge_score.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.knowledge_score.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.knowledge_score.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.knowledge_score.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.knowledge_score.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.knowledge_score.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  # source
+  - key: options.source.angular_community
+    t: Angular समुदाय
+  - key: options.source.work
+    t: कार्यस्थल
+  - key: options.source.word_of_mouth
+    t: लोगों से सुना (वर्ड ऑफ माउथ)
+  - key: options.source.podcast
+    t: पॉडकास्ट
+  - key: options.source.other_online_sources
+    t: अन्य ऑनलाइन स्रोत
+  - key: options.source.blog
+    t: ब्लॉग
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
+  # - key: options.source.
+  #   t:
 
   ###########################################################################
   # Tools
@@ -459,155 +1576,487 @@ translations:
   - key: tools.other_tools
     t: अन्य विकल्प
   - key: tools.other_tools.description
-    t: वर्तमान अनुभाग के लिए आपके द्वारा उपयोग किए जाने वाले अन्य विकल्पों का उल्लेख उपरोक्त सूची में नहीं किया गया है
+    t: वे अन्य विकल्प जो आप इस अनुभाग में उपयोग करते हैं लेकिन ऊपर सूचीबद्ध नहीं हैं।
   - key: tools.happiness
-    t: समग्र खुशी
-  - key: tools.happiness.description
-    t: >
-      एक (बहुत दुखी) से पांच (बहुत खुश) के पैमाने पर, आप वर्तमान समग्र स्थिति से कितने खुश हैं क्योंकि यह ऊपर सूचीबद्ध विकल्पों से संबंधित है?
+    t: समग्र संतुष्टि
+  - key: tools.happiness.question
+    t: ऊपर सूचीबद्ध विकल्पों के वर्तमान स्थिति से आप कितने संतुष्ट हैं?
 
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################
 
+  # age
+  - key: user_info.age
+    t: आयु
+    aliases:
+      - health.age
+  - key: user_info.age.question
+    t: आपकी उम्र (वर्षों में) क्या है?
+    aliases:
+      - health.age.question
+
   # years of experience
   - key: user_info.years_of_experience
-    t: वर्षों का अनुभव
+    t: अनुभव के वर्ष
+    aliases:
+      - career.years_of_experience
   - key: user_info.years_of_experience.question
-    t: आप इस क्षेत्र में कितने समय से काम कर रहे हैं या पढ़ रहे हैं।
+    t: डेवलपर के रूप में आपके पास कितने वर्षों का अनुभव है?
+    aliases:
+      - career.years_of_experience.question
+  - key: user_info.years_of_experience.prompt
+    t: चाहे वह पेशेवर, छात्र या शौकिया रूप में हो।
+    aliases:
+      - career.years_of_experience.prompt
 
   # company size
   - key: user_info.company_size
-    t: कंपनी का साइज
+    t: कंपनी का आकार
   - key: user_info.company_size.question
-    t: आपकी कंपनी कितनी बड़ी है।
+    t: आपके संगठन में, स्वयं सहित, कुल कितने लोग काम करते हैं?
 
   # salary ranges
   - key: user_info.yearly_salary
-    t: वार्षिक वेतन
+    t: वार्षिक आय
+    aliases:
+      - workplace.yearly_salary
   - key: user_info.yearly_salary.question
-    t: अमरीकी डालर में।
+    t: आपकी वार्षिक सकल (कर से पहले) आय अमेरिकी डॉलर में कितनी है?
+    aliases:
+      - workplace.yearly_salary.question
+
+  # income_evolution
+  - key: user_info.income_evolution
+    t: आय में परिवर्तन
+  - key: user_info.income_evolution.question
+    t: पिछले 12 महीनों में आपकी कुल आय में क्या बदलाव हुआ है?
+
+  - key: options.income_evolution.increased
+    t: बढ़ी है
+  - key: options.income_evolution.stayed_same
+    t: समान रही
+  - key: options.income_evolution.decreased
+    t: घटी है
 
   # job title
   - key: user_info.job_title
-    t: नौकरी का नाम
+    t: पदनाम
   - key: user_info.job_title.question
-    t: आप पार्टियों में अपना परिचय कैसे देते हैं?
+    t: आपका कार्य पदनाम क्या है?
 
   # javascript proficiency
-
   - key: user_info.javascript_proficiency
-    t: जावास्क्रिप्ट प्रवीणता
+    t: JavaScript में दक्षता
   - key: user_info.javascript_proficiency.question
-    t: आप जावास्क्रिप्ट में कितने कुशल हैं?
+    t: आप JavaScript में कितने निपुण हैं?
 
   # css proficiency
-
   - key: user_info.css_proficiency
-    t: सीएसएस (CSS) प्रवीणता
+    t: CSS में दक्षता
   - key: user_info.css_proficiency.question
-    t: आप सीएसएस (CSS) में कितने कुशल हैं?
+    t: आप CSS में कितने निपुण हैं?
 
   # backend proficiency
   - key: user_info.backend_proficiency
-    t: बैक-एंड प्रवीणता
+    t: बैकएंड में दक्षता
   - key: user_info.backend_proficiency.question
-    t: बैक-एंड डेवलपमेंट में आप कितने कुशल हैं?
+    t: आप बैकएंड डेवलपमेंट में कितने निपुण हैं?
 
   # gender
   - key: user_info.gender
     t: लिंग
-  # skin tone/appearance
+  - key: user_info.gender.question
+    t: >
+      निम्नलिखित विकल्पों में से कौन-सा आपको सबसे अच्छी तरह वर्णित करता है?
+  - key: user_info.gender.note
+    t: >
+      हम जानते हैं कि विविधता से जुड़ा डेटा एक संवेदनशील विषय हो सकता है,
+      लेकिन हम मानते हैं कि सर्वेक्षण की समावेशिता और प्रतिनिधित्व को मापने
+      और सुधारने के लिए यह जानकारी एकत्र करना महत्वपूर्ण है।
+
+  # race & ethnicity
   - key: user_info.race_ethnicity
     t: जाति और जातीयता
+  - key: user_info.race_ethnicity.question
+    t: >
+      निम्नलिखित विकल्पों में से कौन-से आपको वर्णित करते हैं?
+  - key: user_info.race_ethnicity.note
+    t: >
+      हम जानते हैं कि विविधता से संबंधित डेटा एक संवेदनशील मुद्दा हो सकता है,
+      लेकिन हम मानते हैं कि समावेशिता और प्रतिनिधित्व में सुधार लाने के लिए
+      इस डेटा को एकत्र करना महत्वपूर्ण है।
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      स्थानीय नीतियों के अनुपालन में, आपके देश या क्षेत्र में
+      जाति या जातीयता संबंधी डेटा का संग्रह अक्षम कर दिया गया है।
+  - key: user_info.race_ethnicity.others
+    t: अन्य जातियाँ या जातीयताएँ
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
+
+  # disability status
+  - key: user_info.disability_status
+    t: विकलांगता की स्थिति
+    aliases:
+      - health.disability_status
+  - key: user_info.disability_status.question
+    t: >
+      निम्नलिखित में से कौन-सी विकलांगताएँ आप अनुभव करते हैं?
+    aliases:
+      - health.disability_status.question
+  - key: user_info.disability_status.prompt
+    t: >
+      ध्यान दें कि इसमें अस्थायी विकलांगताएँ या चोटें भी शामिल हो सकती हैं।
+    aliases:
+      - health.disability_status.prompt
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: अन्य विकलांगताएँ
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: आपको इस सर्वे के बारे में कैसे पता चला?
+    t: स्रोत
+  - key: user_info.how_did_user_find_out_about_the_survey.question
+    t: आपने इस सर्वेक्षण के बारे में कहाँ से सुना?
   - key: user_info.email
-    t: तुम्हारा ईमेल
+    t: आपका ईमेल
+  - key: user_info.email.description
+    t: >
+      आपने सर्वेक्षण को गुमनाम रूप से भरा है। यदि आप चाहें, तो आप अपना ईमेल दर्ज कर सकते हैं
+      ताकि बाद में आप अपने डेटा तक पहुँच सकें और जब सर्वेक्षण के परिणाम प्रकाशित हों तो सूचित किया जा सके।
+  - key: user_info.email.note
+    t: >
+      हम कोई व्यक्तिगत डेटा संग्रहीत नहीं करते हैं। आपका ईमेल पता केवल एक अद्वितीय
+      गुमनाम पहचानकर्ता बनाने के लिए उपयोग किया जाएगा और फिर हमारे रिकॉर्ड से हटा दिया जाएगा।
+
   - key: user_info.country
-    t: आपका देश
+    t: देश या क्षेत्र
+  - key: user_info.country.question
+    t: आप वर्तमान में किस देश या क्षेत्र में रहते हैं?
+
+  - key: user_info.github_username
+    t: आपका GitHub उपयोगकर्ता नाम
+  - key: user_info.github_username.description
+    t: >
+      भविष्य में हम सार्वजनिक रूप से उपलब्ध जानकारी का संदर्भ देने के लिए
+      GitHub उपयोगकर्ता नामों का उपयोग कर सकते हैं।
+
+  - key: user_info.twitter_username
+    t: आपका Twitter उपयोगकर्ता नाम
+  - key: user_info.twitter_username.description
+    t: >
+      भविष्य में हम सार्वजनिक रूप से उपलब्ध जानकारी का विश्लेषण करने के लिए
+      Twitter उपयोगकर्ता नामों का उपयोग कर सकते हैं
+      (जैसे कि आप किन लोगों को फॉलो करते हैं)।
+
+  - key: user_info.industry_sector
+    t: उद्योग क्षेत्र
+  - key: user_info.industry_sector.question
+    t: आप किन उद्योग क्षेत्रों में काम करते हैं?
+  - key: user_info.industry_sector.others
+    t: अन्य उद्योग क्षेत्र
+  - key: user_info.industry_sector.others.description
+    t: वे अन्य उद्योग क्षेत्र जिनमें आप काम करते हैं लेकिन ऊपर सूचीबद्ध नहीं हैं।
+
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.question
+    aliasFor: user_info.industry_sector.question
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.question
+
+  # degree
+  - key: user_info.higher_education_degree
+    t: उच्च शिक्षा की डिग्री
+    aliases:
+      - career.higher_education_degree
+  - key: user_info.higher_education_degree.question
+    t: क्या आपके पास उच्च शिक्षा की कोई डिग्री है?
+    aliases:
+      - career.higher_education_degree.question
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: सूचनाएँ
+  - key: user_info.receive_notifications.question
+    t: क्या आप चाहते हैं कि जब सर्वेक्षण के परिणाम जारी हों तो आपको सूचित किया जाए?
+  - key: user_info.receive_notifications.note
+    t: >
+      हम कोई निजी डेटा संग्रहीत नहीं करते, इसलिए आपका ईमेल पता
+      केवल हमारी मेलिंग सूची प्रदाता को भेजे जाने के बाद हमारे रिकॉर्ड से हटा दिया जाएगा।
+
+  # how can we improve the survey?
+  - key: user_info.did_you_run_into_technical_issues
+    t: तकनीकी समस्याएँ
+  - key: user_info.did_you_run_into_technical_issues.question
+    t: क्या आपको इस सर्वेक्षण के दौरान कोई तकनीकी समस्या का सामना करना पड़ा?
+
+  # missing questions
+  - key: user_info.missing_questions
+    t: छूटे हुए प्रश्न
+  - key: user_info.missing_questions.question
+    t: आप कौन-से प्रश्न चाहते थे कि यह सर्वेक्षण पूछता?
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: सर्वेक्षण में सुधार
+  - key: user_info.how_can_we_improve.question
+    t: हम इस सर्वेक्षण को और कैसे बेहतर बना सकते हैं?
+
+  # why_did_you_take_the_survey
+  - key: user_info.why_did_you_take_the_survey
+    t: सर्वेक्षण में भाग लेने का कारण
+  - key: user_info.why_did_you_take_the_survey.question
+    t: इस सर्वेक्षण को लेने से आपको क्या मुख्य लाभ मिलते हैं?
+
+  - key: options.why_did_you_take_the_survey.stay_informed
+    t: यह मुझे नवीनतम रुझानों और पारिस्थितिकी तंत्र के बारे में जानकारी रखता है।
+  - key: options.why_did_you_take_the_survey.interested_in_data
+    t: मुझे इसके परिणामस्वरूप मिलने वाले डेटा और रुझानों में रुचि है।
+  - key: options.why_did_you_take_the_survey.help_with_representation
+    t: मैं चाहता/चाहती हूँ कि डेटा अधिक प्रतिनिधित्वपूर्ण हो सके।
+  - key: options.why_did_you_take_the_survey.for_fun
+    t: मैंने इसे जिज्ञासा या मज़े के लिए लिया।
+  - key: options.why_did_you_take_the_survey.affect_change
+    t: मैं चाहता/चाहती हूँ कि मेरी आवाज सुनी जाए और डेवलपर पारिस्थितिकी तंत्र पर प्रभाव पड़े।
+  - key: options.why_did_you_take_the_survey.gauge_my_knowledge
+    t: मैं अपनी मौजूदा जानकारी का मूल्यांकन करना चाहता/चाहती हूँ।
+
 
   ###########################################################################
-  # Other Tools
+  # Usage
   ###########################################################################
-
-  - key: tools_others.text_editors
-    t: टेक्स्ट एडिटर्स
-  - key: tools_others.text_editors.question
-    t: आप किस टेक्स्ट एडिटर्स का नियमित रूप से उपयोग करते हैं?
-  - key: tools_others.text_editors.others
-    t: अन्य टेक्स्ट एडिटर्स
-  - key: tools_others.text_editors.others.description
-    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
-
-  - key: tools_others.utilities
-    t: यूटिलिटीज
-  - key: tools_others.utilities.question
-    t: आप किन यूटिलिटीज या टूल्स का नियमित रूप से उपयोग करते हैं?
-  - key: tools_others.utilities.others
-    t: अन्य यूटिलिटीज
-  - key: tools_others.utilities.others.description
-    t: अन्य यूटिलिटीज (फ्रीफॉर्म फ़ील्ड).
-
-  - key: tools_others.browsers
-    t: ब्राउज़र्स
-  - key: tools_others.browsers.question
-    t: प्राइमरी वर्क के दौरान आप मुख्य रूप से किस ब्राउज़र में काम करते हैं?
-  - key: tools_others.browsers.others
-    t: अन्य ब्राउज़रों
-  - key: tools_others.browsers.others.description
-    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
-
-  - key: tools_others.build_tools
-    t: बिल्ड टूल्स
-  - key: tools_others.build_tools.question
-    t: आप किस बिल्ड टूल्स का उपयोग करते हैं?
-  - key: tools_others.build_tools.others
-    t: अन्य बिल्ड टूल्स
-  - key: tools_others.build_tools.others.description
-    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
-
-  - key: tools_others.non_js_languages
-    t: नॉन-जावास्क्रिप्ट लैंग्वेजेज
-  - key: tools_others.non_js_languages.question
-    t: आप किन अन्य प्रोग्रामिंग लैंग्वेजेज का उपयोग करते हैं?
-  - key: tools_others.non_js_languages.others
-    t: अन्य लैंग्वेजेज
-  - key: tools_others.non_js_languages.others.description
-    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
 
   ###########################################################################
   # Resources
   ###########################################################################
 
+  # first steps
+  - key: resources.first_steps
+    t: शुरुआती सीखने के तरीके
+  - key: resources.first_steps.question
+    t: जब आपने पहली बार शुरुआत की थी, तो आपने कोडिंग कैसे सीखी?
+  - key: resources.first_steps.others
+    t: अन्य शुरुआती सीखने के तरीके
+  - key: resources.first_steps.others.description
+    t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
+
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: ब्लॉग और पत्रिकाएं
+    t: ब्लॉग और पत्रिकाएँ
   - key: resources.blogs_news_magazines.question
-    t: कौन से ब्लॉग/पत्रिकाएं/आदि। क्या आप पढ़ते हैं?
+    t: आप कौन-कौन से ब्लॉग/पत्रिकाएँ/न्यूज़लेटर आदि पढ़ते हैं?
   - key: resources.blogs_news_magazines.others
-    t: अन्य ब्लॉग और पत्रिकाएं
+    t: अन्य ब्लॉग और पत्रिकाएँ
   - key: resources.blogs_news_magazines.others.description
     t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
+  - key: options.blogs_news_magazines.na
+    t: 🚫 कोई नहीं
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      ब्लॉग/न्यूज़लेटर #{index}…
+
+  # newsletters
+
+  - key: resources.newsletters
+    t: न्यूज़लेटर
+  - key: resources.newsletters.question
+    t: वेब डेवलपमेंट समाचार के लिए आप कौन-कौन से न्यूज़लेटर पढ़ते हैं?
 
   # sites & courses
   - key: resources.sites_courses
-    t: साइटें और कोर्सेज
+    t: साइट्स और कोर्सेज
   - key: resources.sites_courses.question
-    t: कौन सी साइट/कोर्सेज/etc. क्या आप परामर्श करते हैं?
+    t: JavaScript सीखने के लिए आप कौन-कौन सी साइट्स/कोर्सेज आदि देखते हैं?
   - key: resources.sites_courses.others
-    t: अन्य साइटें और कोर्सेज
+    t: अन्य साइट्स और कोर्सेज
   - key: resources.sites_courses.others.description
     t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
+  - key: options.sites_courses.na
+    t: 🚫 कोई नहीं
+  - key: resources.sites_courses.placeholder
+    t: |
+      साइट/कोर्स #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: पेड कोर्सेज
+  - key: resources.paid_courses.question
+    t: आपने कौन-कौन से **पेड संसाधन** (कोर्स, वीडियो, किताबें आदि) इस्तेमाल किए हैं?
+  - key: options.paid_courses.na
+    t: 🚫 कोई नहीं
+  - key: resources.paid_courses.placeholder
+    t: |
+      कोर्स/किताब #{index}…
+
+  # courses
+  - key: resources.courses
+    t: कोर्सेज और प्रशिक्षण सामग्री
+  - key: resources.courses.question
+    t: आपने JavaScript सीखने के लिए कौन-कौन से कोर्स या प्रशिक्षण सामग्री (वीडियो, किताबें आदि) इस्तेमाल की हैं?
+  - key: options.courses.na
+    t: 🚫 कोई नहीं
+  - key: resources.courses.placeholder
+    t: |
+      कोर्स/किताब/आदि #{index}…
 
   # podcasts
   - key: resources.podcasts
     t: पॉडकास्ट
   - key: resources.podcasts.question
-    t: आप कौन से प्रोग्रामिंग-संबंधित पॉडकास्ट सुनते हैं?
+    t: आप कौन-कौन से प्रोग्रामिंग संबंधित पॉडकास्ट सुनते हैं?
   - key: resources.podcasts.others
     t: अन्य पॉडकास्ट
   - key: resources.podcasts.others.description
     t: अन्य उत्तर (फ्रीफॉर्म फ़ील्ड)।
+  - key: options.podcasts.na
+    t: 🚫 कोई नहीं
+  - key: resources.podcasts.placeholder
+    t: |
+      पॉडकास्ट #{index}…
+
+  # people
+  - key: resources.people
+    t: लोग
+  - key: resources.people.question
+    t: आप किन व्यक्तियों को पढ़ते हैं, फॉलो करते हैं या हाइलाइट करना चाहते हैं?
+  # - key: resources.people.others
+  #   t: Other People
+  # - key: resources.people.others.description
+  #   t: Other answers (freeform field).
+  - key: resources.people.others
+    t: लोग
+  - key: resources.people.others.description
+    t: >
+      वे लोग जिन्हें आप पढ़ते हैं, फॉलो करते हैं, या उनके काम के लिए हाइलाइट करना चाहते हैं
+      (फ्रीफॉर्म फ़ील्ड, कॉमा से अलग किए गए नाम)।
+  - key: options.people.na
+    t: 🚫 कोई नहीं
+  - key: resources.people.placeholder
+    t: |
+      व्यक्ति #{index}…
+
+  # other surveys
+  - key: resources.other_surveys
+    t: अन्य सर्वेक्षण
+  - key: resources.other_surveys.question
+    t: आप कौन-कौन से अन्य डेवलपर सर्वेक्षण में भाग लेते हैं?
+  - key: resources.other_surveys.others
+    t: ऊपर उल्लेखित नहीं अन्य सर्वेक्षण
+  - key: options.other_surveys.na
+    t: 🚫 कोई नहीं
+  - key: user_info.other_surveys.question
+    t: आप कौन-कौन से अन्य डेवलपर सर्वेक्षण में भाग लेते हैं?
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.question
+
+  # video creators
+  - key: resources.video_creators
+    t: वीडियो क्रिएटर्स
+  - key: resources.video_creators.question
+    t: आप कौन-कौन से प्रोग्रामिंग संबंधित वीडियो क्रिएटर्स (YouTube, Twitch आदि पर) फॉलो करते हैं?
+  - key: resources.video_creators.others
+    t: अन्य वीडियो क्रिएटर्स
+  - key: options.video_creators.na
+    t: 🚫 कोई नहीं
+  - key: resources.video_creators.placeholder
+    t: |
+      वीडियो क्रिएटर #{index}…
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: हमें और बताएं…
+
+  - key: followups.description
+    t: |
+      आप वैकल्पिक रूप से हमें यह भी बता सकते हैं कि आपने यह उत्तर क्यों चुना:
+
+  - key: followups.description.short
+    t: |
+      हमें और बताएं:
+
+  - key: followups.placeholder
+    t: अन्य कारण…
+
+  - key: followups.want_to_learn_more
+    t: मैं और जानना चाहता हूँ
+  - key: followups.not_interested
+    t: मुझे दिलचस्पी नहीं है
+  - key: followups.insufficient_browser_support
+    t: ब्राउज़र का समर्थन अपर्याप्त
+  - key: followups.not_needed
+    t: मुझे इसकी आवश्यकता नहीं पड़ी
+  - key: followups.hard_to_use
+    t: इसे उपयोग करना कठिन था
+  - key: followups.positive_experience
+    t: मेरा अनुभव सकारात्मक रहा
+  - key: followups.not_powerful
+    t: यह पर्याप्त शक्तिशाली नहीं था
+
+  - key: followups.sentiment_interested
+    t: रुचि है
+  - key: followups.sentiment_not_interested
+    t: रुचि नहीं है
+  - key: followups.sentiment_positive_experience
+    t: सकारात्मक अनुभव
+  - key: followups.sentiment_negative_experience
+    t: नकारात्मक अनुभव
+
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+  # - key: followups.
+  #   t:
+
+  # entities info
+
+  - key: entity.learn_more
+    t: और जानें…
+
+  ###########################################################################
+  # Baseline
+  ###########################################################################
+
+  - key: baseline.baseline
+    t: "बेसलाइन:"
+  - key: baseline.learn_more
+    t: और जानें
+  - key: baseline.support.false
+    t: सीमित उपलब्धता
+  - key: baseline.support.false.description
+    t: केवल कुछ ब्राउज़रों में समर्थित।
+
+  - key: baseline.support.low
+    t: हाल ही में उपलब्ध
+  - key: baseline.support.low.description
+    t: सभी चार मुख्य ब्राउज़रों में समर्थित।
+
+  - key: baseline.support.high
+    t: व्यापक रूप से उपलब्ध
+  - key: baseline.support.high.description
+    t: हाल ही में उपलब्ध होने के 30 महीने बाद।
+
+  - key: baseline.support.unknown
+    t: अज्ञात
+  - key: baseline.support.unknown.description
+    t: कोई बेसलाइन डेटा उपलब्ध नहीं है।
+
+  - key: feature.experimental
+    t: वर्तमान में असमर्थित फ़ीचर या प्रस्ताव

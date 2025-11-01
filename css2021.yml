@@ -1,0 +1,420 @@
+locale: hi-IN
+translations:
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.results.description
+    t: 2021 के संस्करण में CSS इकोसिस्टम में नवीनतम रुझानों पर वार्षिक सर्वेक्षण का विवरण है।  
+
+  - key: introduction.css2021
+    t: |
+      <span class="first-letter">क्या</span> बढ़ई हर कुछ साल में किसी बोर्ड को काटने का नया, बेहतर तरीका सीखते हैं? क्या चित्रकार अब भी ऑयल पेंट इस्तेमाल करने पर खुद को धोखेबाज महसूस करते हैं? या फिर केवल हम फ्रंट-एंड डेवलपर्स ही इस लगातार बदलती स्थिति का अनुभव करते हैं?
+
+      कंटेनर क्वेरीज़ और अन्य फीचर्स के आने के साथ, चीजें निश्चित रूप से तेजी से बदल रही हैं। और हमें भी इसके साथ बने रहना है, इसलिए हमने इन सर्वेक्षण परिणामों को कुछ नए पावर-अप्स दिए हैं!  
+
+      इसका मतलब यह है कि अब हम दो डेटा पॉइंट्स का क्रॉस-रेफ़रेंस कर सकते हैं, जैसे कि अनुभव स्तर के अनुसार वार्षिक वेतन; या देश के अनुसार लिंग। आप परिणामों में कुछ ऐसे ब्रेकडाउन देखेंगे, लेकिन हम आपको [हमारे API](https://api.stateofjs.com/) या [डेटा डाउनलोड करने](https://www.kaggle.com/sachag/state-of-css) के माध्यम से डेटा को और अधिक एक्सप्लोर करने के लिए प्रोत्साहित करते हैं। हमें बताएं अगर आप अपने खुद के डेटा विज़ुअलाइज़ेशन बनाते हैं!  
+
+      और अब, चलिए देखते हैं कि इस साल CSS ने क्या किया है!  
+
+      *नोट: समय की कमी के कारण 2021 का [State of JavaScript](http://stateofjs.com/) सर्वेक्षण जनवरी 2022 तक स्थगित करना पड़ा। छुट्टियों के बाद मिलते हैं!*  
+
+      <span class="conclusion__byline">– साचा ग्रेइफ</span>  
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: इस साल के सर्वेक्षण में दुनिया भर के **8,714** डेवलपर्स ने भाग लिया।  
+
+  - key: sections.features.description
+    t: CSS की गतिशीलता रुकने का नाम नहीं ले रही है, क्योंकि डेवलपर्स वर्तमान नए फीचर्स को अपनाने का प्रयास कर रहे हैं और आने वाले वर्षों में और अधिक नवाचार की प्रतीक्षा कर रहे हैं।  
+
+  - key: sections.technologies.description
+    t: लगभग 50% उत्तरदाता खुशी-खुशी एक या अधिक CSS-in-JS लाइब्रेरी का उपयोग कर रहे हैं, जिससे कहा जा सकता है कि इस श्रेणी ने अपना स्थान बना लिया है। शायद फ्रंट-एंड की दोनों दुनियाएं इतनी दूर नहीं हैं?  
+
+  - key: sections.tools_others.description
+    t: किसी तकनीक का चयन अक्सर प्रतियोगी प्राथमिकताओं के बीच कठिन विकल्पों में बदल जाता है, और इस साल हमने इस प्रक्रिया को नए ब्रैकेट-स्टाइल प्रश्न फॉर्मेट में कैप्चर करने की कोशिश की।  
+
+  - key: sections.environments.description
+    t: वेब डेवलपमेंट में ऐक्सेसिबिलिटी अक्सर बाद में ध्यान में आती रही है, लेकिन अब कई डेवलपर्स समझ रहे हैं कि यह वास्तव में वह आधार है जिस पर सब कुछ टिका होना चाहिए।  
+
+  - key: sections.resources.description
+    t: ब्लॉग, पॉडकास्ट और साइट्स को उजागर करना ठीक है, लेकिन इस साल हमने एक कदम आगे बढ़ाया और वास्तव में CSS समुदाय के लोगों को प्रमुखता दी!  
+
+  - key: sections.opinions.description
+    t: चाहे यह आज आपको रोकने वाले पेन पॉइंट्स हों, या कल इस्तेमाल करने की उम्मीद वाले फीचर्स, यह आपका मौका था CSS के प्रति अपनी नाराजगी साझा करने का!  
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.animations_transforms
+    aliasFor: sections.animations_transforms.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.media_queries
+    aliasFor: sections.media_queries.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      यदि आप और जानने में रुचि रखते हैं, तो हमने [एक ब्लॉग पोस्ट](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) लिखा है जो सर्वेक्षण की लिंग गतिशीलताओं को संबोधित करता है।  
+
+  - key: blocks.css_missing_features.note
+    t: |
+      आप इस प्रश्न के उत्तरों के पूरे डेटा सेट को [इस साइड प्रोजेक्ट](https://whatsmissingfromcss.com/) में एक्सप्लोर कर सकते हैं।  
+
+  - key: blocks.source.note
+    t: >
+
+      यह चार्ट रेफ़रर्स, URL पैरामीटर्स, और फ्रीफ़ॉर्म उत्तरों का मिश्रण है।  
+
+      - State of JS: [State of JS](https://stateofjs.com) मेलिंग लिस्ट।  
+      - State of CSS: State of CSS मेलिंग लिस्ट; साथ ही `email`, `by email` आदि।  
+      - Work: `work`, `colleagues`, `coworkers` आदि।  
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: 2021 में **{value}** प्रगति के साथ, CSS तुलना फ़ंक्शन्स हर CSS डेवलपर के टूलकिट का महत्वपूर्ण हिस्सा बनते जा रहे हैं।  
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.tool_satisfaction_award.comment
+    t: PostCSS फिर से शीर्ष स्थान पर है, **{value}** रिटेंशन अनुपात के साथ।  
+
+  - key: award.tool_interest_award.comment
+    t: **{value}** अनुपात के साथ, CSS Modules ने इस साल CSS डेवलपर्स में सबसे अधिक रुचि उत्पन्न की।  
+
+  # - key: award.most_write_ins_award.comment
+  #   t: Many questions also accepted write-in answers, and with **{value}** mentions PhpStorm was the most popular item overall.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2021
+    t: |
+      <span class="first-line">CSS लिखने का तरीका हमेशा के लिए बदलने वाला है</span>
+
+      कई वर्षों से, वेब स्टाइल लिखने में कई नवाचार अन्य जगहों पर हुए हैं: प्रीप्रोसेसर, जावास्क्रिप्ट फ्रेमवर्क, या कंपाइलर्स में। निश्चित रूप से, CSS में भी [aspect-ratio](https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio) या [custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) जैसी कुछ महत्वपूर्ण सुधार आए हैं। फिर भी हम रोज़ाना लाइब्रेरी और अन्य हेल्पर्स का उपयोग करते हैं।  
+
+      लेकिन एक बदलाव आने वाला है। मूल CSS भाषा में नए सुधार और बदलाव हो रहे हैं, और हम इसके अग्रिम मोर्चे पर हैं।  
+
+      [Container Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Container_Queries) पूरी तरह नए रिस्पॉन्सिव डिज़ाइन युग को लाएंगे, और [Cascade Layers](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) फ्रेमवर्क, थीमिंग और जटिल कोडबेस प्रबंधन को आसान बनाएंगे।  
+
+      थोड़ा आगे देखते हुए, [@when/else conditional](https://css-tricks.com/proposal-for-css-when/) भी आने वाला है, जो मीडिया, कंटेनर और सपोर्ट्स क्वेरीज़ को एक ही एट-रूल में जोड़ देगा।  
+
+      और उम्मीद है कि 2022 वह साल होगा जब हम CSS नेस्टिंग में कुछ प्रगति देखेंगे। Sass और PostCSS जैसे टूल्स के उपयोगकर्ता इसके बिना काम करना मुश्किल मानते हैं।  
+
+      इसका मतलब है कि 2022 में CSS लिखने का तरीका मूल रूप से बदलने वाला है। यह बेहद रोमांचक समय है, और हम आने वाले वर्षों में सभी अद्भुत कार्यान्वयन के लिए उत्साहित हैं।  
+
+  - key: conclusion.css2021.bio
+    t: वेब डेवलपर और Polypane के निर्माता  
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2021
+    t: "मेरी 2021 पसंद: "
+  - key: picks.intro
+    t: हमने CSS समुदाय के सदस्यों से उनके “साल की पसंद” साझा करने को कहा  
+
+  - key: picks.george_francis.name
+    t: CSS Paint API
+  - key: picks.george_francis.bio
+    t: डेवलपर, लेखक और जेनरेटिव आर्टिस्ट।  
+  - key: picks.george_francis.description
+    t: |
+      Paint API हमें प्रोग्रामेटिक तरीके से इमेज बनाने देता है, 
+      जिन्हें हम CSS में उपयोग कर सकते हैं। यह रचनात्मकता की पूरी दुनिया खोलता है, 
+      और मैं इसके लिए बहुत उत्साहित हूं!  
+
+  - key: picks.cassidy_williams.name
+    t: Lynn Fisher
+  - key: picks.cassidy_williams.bio
+    t: डेवलपर एडवोकेट, शिक्षक और स्टार्टअप सलाहकार।  
+  - key: picks.cassidy_williams.description
+    t: |
+      मैं लिं फिशर को चुनना पसंद करूंगा। उन्होंने लगातार CSS समुदाय को 
+      अपने रचनात्मक प्रोजेक्ट्स और प्रयोगों से आश्चर्यचकित और प्रसन्न किया है, 
+      और मुझे यह बहुत पसंद है कि लोग उनसे कितना कुछ सीख सकते हैं!
+
+  - key: picks.josh_comeau.name
+    t: अमेलिया वाटेनबर्गर
+  - key: picks.josh_comeau.bio
+    t: सॉफ्टवेयर डेवलपर और [CSS for JavaScript Developers](https://css-for-js.dev/) की रचनाकार।
+  - key: picks.josh_comeau.description
+    t: |
+      अमेलिया कुछ सबसे अद्भुत इंटरैक्टिव ब्लॉग पोस्ट्स बना रही हैं 
+      CSS और JS के बारे में। 
+      CSS में प्रतिशत कैसे काम करते हैं, इस पोस्ट को जरूर देखें!
+
+  - key: picks.kevin_j_powell.name
+    t: स्टेफ़नी एकल्स
+  - key: picks.kevin_j_powell.bio
+    t: CSS एवेन्जलिस्ट
+  - key: picks.kevin_j_powell.description
+    t: |
+      मैं लगातार स्टेफ़नी की आधुनिक CSS तकनीकों के ज्ञान को साझा करने की 
+      निरंतर पहल और CSS के प्रति उनके उत्साह से प्रभावित होता हूँ।
+
+  - key: picks.manuel_matuzovic.name
+    t: ऐस्पेक्ट-रैशियो
+  - key: picks.manuel_matuzovic.bio
+    t: वियना के फ्रंट-एंड डेवलपर और [htmhell.dev](https://htmhell.dev) के रचनाकार।
+  - key: picks.manuel_matuzovic.description
+    t: |
+      सभी प्रमुख ब्राउज़र ने 2021 में ऐस्पेक्ट-रैशियो के लिए सपोर्ट जारी किया। 
+      शुरू में मैंने इसे कम आंका था, लेकिन कई परिस्थितियाँ हैं 
+      जहाँ यह प्रॉपर्टी बहुत काम आती है।
+
+  - key: picks.gift_egwuenu.name
+    t: केविन पॉवेल
+  - key: picks.gift_egwuenu.bio
+    t: फ्रंटेंड डेवलपर और कंटेंट क्रिएटर
+  - key: picks.gift_egwuenu.description
+    t: |
+      केविन YouTube पर CSS सामग्री बनाते हैं और मैं उनके वीडियोस 
+      देखना बहुत पसंद करता हूँ। 
+      वे CSS अवधारणाओं को समझने में आसान और मज़ेदार तरीके से सिखाते हैं।
+
+  - key: picks.eric_w_bailey.name
+    t: मिरियम सुसैन
+  - key: picks.eric_w_bailey.bio
+    t: इंक्लूसिव डिज़ाइन और \#a11y समर्थक।
+  - key: picks.eric_w_bailey.description
+    t: |
+      CSS अब अच्छे से महान की ओर बढ़ने वाला है। 
+      मिरियम का कंटेनर क्वेरीज़ और कैस्केड लेयर्स पर काम CSS लिखने के तरीके को 
+      बदलने वाला है।
+
+  - key: picks.samuel_kraft.name
+    t: वेनिला एक्सट्रैक्ट
+  - key: picks.samuel_kraft.bio
+    t: फ्रंटेंड और डिज़ाइन
+  - key: picks.samuel_kraft.description
+    t: |
+      हाल ही में मैंने वेनिला एक्सट्रैक्ट के साथ काम करना बहुत पसंद किया, 
+      यह CSS मॉड्यूल्स जैसा है लेकिन पूरी तरह से टाइप किया हुआ और 
+      डेवलपर अनुभव को जादुई बनाता है।
+
+  - key: picks.sacha_greif.name
+    t: ओपन प्रॉप्स
+  - key: picks.sacha_greif.bio
+    t: स्टेट ऑफ JS और स्टेट ऑफ CSS के रचनाकार
+  - key: picks.sacha_greif.description
+    t: |
+      यह देखना वाकई रोमांचक है कि नई CSS सुविधाओं और 
+      उन्हें इस्तेमाल करने वाले नए प्रोजेक्ट्स के बीच फीडबैक लूप कैसा है! 
+      और मुझे लगता है कि एडम आर्गाइल का ओपन प्रॉप्स 
+      कस्टम प्रॉपर्टीज़ (CSS वेरिएबल्स) का बेहतरीन उपयोग है।
+
+  - key: picks.ahmad_shadeed.name
+    t: कंटेनर क्वेरीज़
+  - key: picks.ahmad_shadeed.bio
+    t: [Debugging CSS](https://debuggingcss.com/) के लेखक, [ishadeed.com](http://ishadeed.com) पर लेखक
+  - key: picks.ahmad_shadeed.description
+    t: |
+      CSS कंटेनर क्वेरीज़ फिर से! हमें ब्राउज़र में इन्हें इस्तेमाल करने का मौका मिला। 
+      इसे आगे बढ़ाने के लिए मिरियम सुसैन का धन्यवाद! 
+      मैं बिना फ्लैग के इन्हें इस्तेमाल करने का इंतजार नहीं कर सकता।
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  - key: picks.adam_argyle.name
+    t: CSS नॉइज़
+  - key: picks.adam_argyle.bio
+    t: Google में CSS
+  - key: picks.adam_argyle.description
+    t: |
+      CSS द्वारा उत्पन्न बनावट और रैंडमनेस आपके डिज़ाइन में 
+      अद्वितीय और रोचक पेंट जॉब्स बनाती है। 
+      नॉइज़ टूल्स ने इस तकनीक को आसान और सुलभ बना दिया है।
+
+  - key: picks.stephanie_walter.name
+    t: मिरियम सुसैन
+  - key: picks.stephanie_walter.bio
+    t: UX रिसर्चर और CSS प्रेमी
+  - key: picks.stephanie_walter.description
+    t: |
+      मिरियम एक कलाकार और कार्यकर्ता हैं जो ऐसे सॉफ़्टवेयर और कला 
+      बनाती हैं जो मानव अनुभव की क्वीर जटिलताओं का जश्न मनाते हैं। 
+      वह CSS विशेषज्ञ हैं और CSS कंटेनर क्वेरीज़ के स्पेसिफिकेशन्स पर अद्भुत काम कर रही हैं।
+
+  - key: picks.michelle_barker.name
+    t: “एक रंग योजना बनाना” एडम आर्गाइल द्वारा
+  - key: picks.michelle_barker.bio
+    t: सीनियर फ्रंट एंड डेवलपर
+  - key: picks.michelle_barker.description
+    t: |
+      मुझे यह लेख बहुत पसंद है क्योंकि हालांकि कस्टम प्रॉपर्टीज़ कुछ समय से हैं, 
+      यह उन्हें एक नए स्तर पर ले जाता है और उनकी शक्ति को दर्शाता है। 
+      मुझे उम्मीद है कि यह कुछ लोगों को उन्हें केवल साधारण वेरिएबल्स से अधिक समझने में मदद करेगा।
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: डेटा कम पसंद करता है
+  - key: picks.kilian_valkhof.bio
+    t: वेब डेवलपर और Polypane के निर्माता
+  - key: picks.kilian_valkhof.description
+    t: |
+      हमें और अधिक डेवलपर्स की जरूरत है जो ब्राउज़र से इस फीचर के बारे में पूछें 
+      और यह समझें कि यह कितना बड़ा अंतर ला सकता है। 
+      हालांकि 64% प्रतिभागियों को इसके बारे में जानकारी नहीं है, इसलिए हमें काम करना है!
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software.
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+  #       notably bringing flex gap to WebKit,
+  #       which means that soon it will be available on all modern browsers.
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid
+  #       triggering dizziness and discomfort.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: आधुनिक फ्रंट-एंड इंजीनियरिंग कोर्सेस के साथ अपनी क्षमताओं को गहरा करें।
+  - key: sponsors.polypane.description
+    t: महत्वाकांक्षी डेवलपर्स के लिए ब्राउज़र। आसानी से रेस्पॉन्सिव, एक्सेसिबल और तेज़ वेबसाइट बनाएं।
+  - key: sponsors.google_chrome.description
+    t: हमारे काम का समर्थन करने के लिए Google Chrome टीम का धन्यवाद।
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.css2021
+    t: >
+      2021 की State of CSS सर्वेक्षण 5 अक्टूबर से 2 नवंबर 2021 तक चला, और इसमें 8714 प्रतिक्रियाएँ एकत्रित की गईं। यह सर्वेक्षण मैंने, [साचा ग्रेफ](https://sachagreif.com/), द्वारा ओपन-सोर्स योगदानकर्ताओं और सलाहकारों की टीम की मदद से चलाया गया।  
+
+      इस वर्ष का लोगो और टी-शर्ट [क्रिस्टोफर किर्क-नीलसन](http://chriskirknielsen.com/) द्वारा डिज़ाइन और एनिमेट किया गया।  
+
+      ### सर्वेक्षण के उद्देश्य
+
+      यह सर्वेक्षण, [State of JavaScript](https://stateofjs.com/) सर्वेक्षण के साथ, वेब विकास इकोसिस्टम में आने वाले रुझानों की पहचान करने के लिए बनाया गया था ताकि डेवलपर्स तकनीकी विकल्प चुन सकें।  
+
+      इसलिए, ये सर्वेक्षण इस बात पर केंद्रित हैं कि अगले कुछ वर्षों में क्या आने वाला है, बजाय इसके कि वर्तमान में क्या लोकप्रिय है, इसीलिए वर्तमान में सबसे व्यापक रूप से उपयोग की जाने वाली सुविधाएँ या तकनीकें हमेशा शामिल नहीं होतीं।  
+
+      ### सर्वेक्षण डिज़ाइन
+
+      सर्वेक्षण को आंशिक रूप से पिछले वर्ष के सर्वेक्षण के आधार पर डिज़ाइन किया गया था, जिसमें एक खुली प्रतिक्रिया अवधि थी, जहाँ सर्वेक्षण की रूपरेखा [GitHub पर](https://github.com/StateOfJS/StateOfCSS-2020/issues/8) चर्चा की गई।  
+
+      सभी सर्वेक्षण प्रश्न वैकल्पिक थे।  
+
+      ### सर्वेक्षण दर्शक
+
+      यह सर्वेक्षण ऑनलाइन खुले रूप से उपलब्ध था और प्रतिभागियों को किसी भी तरह से फ़िल्टर या चयनित नहीं किया गया था। प्रतिभागियों में मुख्य रूप से पिछले सर्वेक्षणों के प्रतिभागियों का मिश्रण (विशेष मेलिंग सूची के माध्यम से सूचित) और सोशल मीडिया ट्रैफ़िक शामिल था।  
+
+      ### प्रतिनिधित्व और समावेशन
+
+      जबकि हम मानते हैं कि हर समुदाय की आवाज़ को देना महत्वपूर्ण है, वास्तविकता यह है कि इस तरह का खुला सर्वेक्षण हमेशा सभी का सही प्रतिनिधित्व करने में संघर्ष करेगा, खासकर उन सिस्टम्स के माध्यम से कार्य करते समय जिनमें पहले से ही अपनी अंतर्निहित पूर्वाग्रह मौजूद हैं।  
+
+      इसे संतुलित करने के लिए, हम तीन अलग-अलग रणनीतियाँ लागू कर रहे हैं:  
+
+      - **आउटरीच**: इस वर्ष, हमने BIPOC और LGBTQ डेवलपर्स का प्रतिनिधित्व करने वाले 23 संगठनों तक पहुँचने की कोशिश की, साझेदारी की आशा में। हालांकि उनमें से बहुत कम ने उत्तर दिया, हम अपने वर्तमान दर्शकों से परे पहुँचने के तरीके खोजते रहेंगे।  
+
+      - **डेटा विश्लेषण**: फ़ैसेट्स और वेरिएंट्स जैसी सुविधाओं के माध्यम से, हम हमेशा किसी भी डेमोग्राफिक सेगमेंट की आवाज़ को उजागर करना आसान बनाने की कोशिश करते हैं, चाहे वह हमारे डेटा में कितना भी अल्पसंख्यक क्यों न हो।  
+
+      - **बाधा कम करना**: सर्वेक्षण को बहुत लंबा, असुलभ, धीमा, केवल अंग्रेज़ी में आदि बनाना "प्रयास कर" टैक्स लगाने में योगदान दे सकता है, जो उस समुदाय के हिस्सों को काट देता है जो इसे वहन नहीं कर सकते। इन समस्याओं को ठीक करने से प्रवेश की बाधा कम होती है और हमारे दर्शक अधिक विविध बनते हैं।  
+
+      ### परियोजना फंडिंग
+
+      इस परियोजना के फंडिंग स्रोत विभिन्न हैं:  
+
+      - **टी-शर्ट बिक्री**।  
+
+      - **प्रायोजित लिंक**: प्रत्येक पेज के नीचे सुझाए गए संसाधनों के लिंक हमारे साझेदार [Frontend Masters](https://frontendmasters.com/) द्वारा प्रदान किए जाते हैं।  
+
+      - **अन्य फंडिंग**: इस वर्ष, [Google Chrome](https://www.google.com/chrome/) टीम ने सर्वेक्षण पर काम करने के लिए एक [सुलभता सलाहकार](https://fossheim.io/) को नियुक्त करने में मदद करने के लिए एक छोटा बजट निर्धारित किया।  
+
+      इन फंडिंग स्रोतों के बावजूद, सर्वेक्षण कुल मिलाकर ज्यादातर आत्म-निधारित परियोजना बनी हुई है और किसी भी योगदान या प्रायोजन की अत्यधिक सराहना की जाएगी। मैं विशेष रूप से और अधिक ब्राउज़र विक्रेताओं के साथ काम करना चाहूंगा, क्योंकि वे वेब इकोसिस्टम में एक केंद्रीय भूमिका निभाते हैं।  
+
+      ### तकनीकी अवलोकन
+
+      आप यहाँ [अधिक तकनीकी विवरण](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) पा सकते हैं कि सर्वेक्षण कैसे चलाए जाते हैं।  
+
+      - **डेटा संग्रह**: कस्टम [Vulcan.js](http://vulcanjs.org/) ऐप।  
+      - **डेटा संग्रहण/प्रसंस्करण**: MongoDB और MongoDB Aggregations।  
+      - **डेटा API**: Node.js GraphQL API।  
+      - **परिणाम साइट**: [Gatsby](https://www.gatsbyjs.com/) React ऐप।  
+      - **डेटा विज़ुअलाइज़ेशन**: [Nivo](https://nivo.rocks/) React डाटाविज़ लाइब्रेरी।  
+      - **फॉन्ट प्रकार**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) और [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue)।  
+
+  - key: general.css2021.survey_intro
+    t: |
+      अरे CSS, हाल ही में तुम क्या कर रहे थे? सच में, `@container`? ओह और intrinsic sizing? और `@property` भी?! वाह, तुम तो काफी व्यस्त रहे!  
+
+      भले ही महामारी ने 2021 के दौरान हर किसी की जिंदगी को कठिन बनाया, दुनिया भर के समर्पित योगदानकर्ताओं ने किसी तरह CSS को आगे बढ़ाया।  
+      और इसलिए एक बार फिर CSS इकोसिस्टम का सर्वेक्षण करने और यह पता लगाने का समय है कि यह सब कहाँ जा रहा है।  
+      और शायद इस बीच कुछ नई चीज़ें भी सीख लें!
