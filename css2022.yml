@@ -1,5 +1,6 @@
 locale: hi-IN
-translations: ###########################################################################
+translations:
+  ###########################################################################
   # General
   ###########################################################################
 
@@ -67,7 +68,7 @@ translations: ##################################################################
   #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
 
   - key: award.most_commented_feature_award.comment
-    t: **{value}** टिप्पणियों के साथ, कोई अन्य फीचर Subgrid जितनी प्रतिक्रिया उत्पन्न करने के करीब भी नहीं आया।  
+    t: '**{value}** टिप्पणियों के साथ, कोई अन्य फीचर Subgrid जितनी प्रतिक्रिया उत्पन्न करने के करीब भी नहीं आया।'  
 
   - key: award.tool_satisfaction_award.comment
     t: |
